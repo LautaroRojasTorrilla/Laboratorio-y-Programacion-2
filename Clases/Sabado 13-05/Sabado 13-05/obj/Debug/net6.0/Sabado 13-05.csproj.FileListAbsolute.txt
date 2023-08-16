@@ -1,0 +1,15 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 13-05\Sabado 13-05\bin\Debug\net6.0\Sabado 13-05.exe
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 13-05\Sabado 13-05\bin\Debug\net6.0\Sabado 13-05.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 13-05\Sabado 13-05\bin\Debug\net6.0\Sabado 13-05.runtimeconfig.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 13-05\Sabado 13-05\bin\Debug\net6.0\Sabado 13-05.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 13-05\Sabado 13-05\bin\Debug\net6.0\Sabado 13-05.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 13-05\Sabado 13-05\obj\Debug\net6.0\Sabado 13-05.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 13-05\Sabado 13-05\obj\Debug\net6.0\Sabado 13-05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 13-05\Sabado 13-05\obj\Debug\net6.0\Sabado 13-05.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 13-05\Sabado 13-05\obj\Debug\net6.0\Sabado 13-05.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 13-05\Sabado 13-05\obj\Debug\net6.0\Sabado 13-05.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 13-05\Sabado 13-05\obj\Debug\net6.0\Sabado 13-05.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 13-05\Sabado 13-05\obj\Debug\net6.0\refint\Sabado 13-05.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 13-05\Sabado 13-05\obj\Debug\net6.0\Sabado 13-05.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 13-05\Sabado 13-05\obj\Debug\net6.0\Sabado 13-05.genruntimeconfig.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 13-05\Sabado 13-05\obj\Debug\net6.0\ref\Sabado 13-05.dll

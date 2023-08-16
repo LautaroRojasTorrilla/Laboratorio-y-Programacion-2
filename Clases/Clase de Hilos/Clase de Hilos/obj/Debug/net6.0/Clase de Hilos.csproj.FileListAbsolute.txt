@@ -1,0 +1,15 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase de Hilos\Clase de Hilos\bin\Debug\net6.0\Clase de Hilos.exe
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase de Hilos\Clase de Hilos\bin\Debug\net6.0\Clase de Hilos.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase de Hilos\Clase de Hilos\bin\Debug\net6.0\Clase de Hilos.runtimeconfig.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase de Hilos\Clase de Hilos\bin\Debug\net6.0\Clase de Hilos.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase de Hilos\Clase de Hilos\bin\Debug\net6.0\Clase de Hilos.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase de Hilos\Clase de Hilos\obj\Debug\net6.0\Clase de Hilos.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase de Hilos\Clase de Hilos\obj\Debug\net6.0\Clase de Hilos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase de Hilos\Clase de Hilos\obj\Debug\net6.0\Clase de Hilos.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase de Hilos\Clase de Hilos\obj\Debug\net6.0\Clase de Hilos.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase de Hilos\Clase de Hilos\obj\Debug\net6.0\Clase de Hilos.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase de Hilos\Clase de Hilos\obj\Debug\net6.0\Clase de Hilos.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase de Hilos\Clase de Hilos\obj\Debug\net6.0\refint\Clase de Hilos.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase de Hilos\Clase de Hilos\obj\Debug\net6.0\Clase de Hilos.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase de Hilos\Clase de Hilos\obj\Debug\net6.0\Clase de Hilos.genruntimeconfig.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase de Hilos\Clase de Hilos\obj\Debug\net6.0\ref\Clase de Hilos.dll

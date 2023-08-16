@@ -1,0 +1,18 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\obj\Debug\net6.0\Ejercicio 18 - Geometria.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\obj\Debug\net6.0\Ejercicio 18 - Geometria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\obj\Debug\net6.0\Ejercicio 18 - Geometria.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\obj\Debug\net6.0\Ejercicio 18 - Geometria.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\obj\Debug\net6.0\Ejercicio 18 - Geometria.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\bin\Debug\net6.0\Ejercicio 18 - Geometria.exe
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\bin\Debug\net6.0\Ejercicio 18 - Geometria.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\bin\Debug\net6.0\Ejercicio 18 - Geometria.runtimeconfig.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\bin\Debug\net6.0\Ejercicio 18 - Geometria.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\bin\Debug\net6.0\Ejercicio 18 - Geometria.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\bin\Debug\net6.0\Geometria.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\bin\Debug\net6.0\Geometria.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\obj\Debug\net6.0\Ejercicio 18 - Geometria.csproj.CopyComplete
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\obj\Debug\net6.0\Ejercicio 18 - Geometria.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\obj\Debug\net6.0\refint\Ejercicio 18 - Geometria.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\obj\Debug\net6.0\Ejercicio 18 - Geometria.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\obj\Debug\net6.0\Ejercicio 18 - Geometria.genruntimeconfig.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 18 - Geometria\Ejercicio 18 - Geometria\obj\Debug\net6.0\ref\Ejercicio 18 - Geometria.dll

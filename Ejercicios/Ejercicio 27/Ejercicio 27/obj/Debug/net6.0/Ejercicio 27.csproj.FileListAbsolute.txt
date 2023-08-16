@@ -1,0 +1,15 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 27\Ejercicio 27\bin\Debug\net6.0\Ejercicio 27.exe
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 27\Ejercicio 27\bin\Debug\net6.0\Ejercicio 27.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 27\Ejercicio 27\bin\Debug\net6.0\Ejercicio 27.runtimeconfig.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 27\Ejercicio 27\bin\Debug\net6.0\Ejercicio 27.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 27\Ejercicio 27\bin\Debug\net6.0\Ejercicio 27.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 27\Ejercicio 27\obj\Debug\net6.0\Ejercicio 27.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 27\Ejercicio 27\obj\Debug\net6.0\Ejercicio 27.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 27\Ejercicio 27\obj\Debug\net6.0\Ejercicio 27.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 27\Ejercicio 27\obj\Debug\net6.0\Ejercicio 27.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 27\Ejercicio 27\obj\Debug\net6.0\Ejercicio 27.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 27\Ejercicio 27\obj\Debug\net6.0\Ejercicio 27.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 27\Ejercicio 27\obj\Debug\net6.0\refint\Ejercicio 27.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 27\Ejercicio 27\obj\Debug\net6.0\Ejercicio 27.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 27\Ejercicio 27\obj\Debug\net6.0\Ejercicio 27.genruntimeconfig.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 27\Ejercicio 27\obj\Debug\net6.0\ref\Ejercicio 27.dll

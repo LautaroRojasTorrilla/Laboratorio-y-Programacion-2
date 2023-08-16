@@ -1,0 +1,36 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Recu_primer_parcial\Recu_primer_parcial\bin\Debug\net6.0\Recu_primer_parcial.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Recu_primer_parcial\Recu_primer_parcial\bin\Debug\net6.0\Recu_primer_parcial.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Recu_primer_parcial\Recu_primer_parcial\bin\Debug\net6.0\Recu_primer_parcial.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\refint\Recu_primer_parcial.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\ref\Recu_primer_parcial.dll
+C:\Users\lrojas\Desktop\Proyectos\Recu_primer_parcial\Recu_primer_parcial\bin\Debug\net6.0\Recu_primer_parcial.deps.json
+C:\Users\lrojas\Desktop\Proyectos\Recu_primer_parcial\Recu_primer_parcial\bin\Debug\net6.0\Recu_primer_parcial.dll
+C:\Users\lrojas\Desktop\Proyectos\Recu_primer_parcial\Recu_primer_parcial\bin\Debug\net6.0\Recu_primer_parcial.pdb
+C:\Users\lrojas\Desktop\Proyectos\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.csproj.AssemblyReference.cache
+C:\Users\lrojas\Desktop\Proyectos\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lrojas\Desktop\Proyectos\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.AssemblyInfoInputs.cache
+C:\Users\lrojas\Desktop\Proyectos\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.AssemblyInfo.cs
+C:\Users\lrojas\Desktop\Proyectos\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.csproj.CoreCompileInputs.cache
+C:\Users\lrojas\Desktop\Proyectos\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.dll
+C:\Users\lrojas\Desktop\Proyectos\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\refint\Recu_primer_parcial.dll
+C:\Users\lrojas\Desktop\Proyectos\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.pdb
+C:\Users\lrojas\Desktop\Proyectos\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\ref\Recu_primer_parcial.dll
+D:\Progra y labo 2\Exámenes\Recu_primer_parcial\Recu_primer_parcial\bin\Debug\net6.0\Recu_primer_parcial.deps.json
+D:\Progra y labo 2\Exámenes\Recu_primer_parcial\Recu_primer_parcial\bin\Debug\net6.0\Recu_primer_parcial.dll
+D:\Progra y labo 2\Exámenes\Recu_primer_parcial\Recu_primer_parcial\bin\Debug\net6.0\Recu_primer_parcial.pdb
+D:\Progra y labo 2\Exámenes\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.csproj.AssemblyReference.cache
+D:\Progra y labo 2\Exámenes\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.GeneratedMSBuildEditorConfig.editorconfig
+D:\Progra y labo 2\Exámenes\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.AssemblyInfoInputs.cache
+D:\Progra y labo 2\Exámenes\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.AssemblyInfo.cs
+D:\Progra y labo 2\Exámenes\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.csproj.CoreCompileInputs.cache
+D:\Progra y labo 2\Exámenes\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.dll
+D:\Progra y labo 2\Exámenes\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\refint\Recu_primer_parcial.dll
+D:\Progra y labo 2\Exámenes\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\Recu_primer_parcial.pdb
+D:\Progra y labo 2\Exámenes\Recu_primer_parcial\Recu_primer_parcial\obj\Debug\net6.0\ref\Recu_primer_parcial.dll

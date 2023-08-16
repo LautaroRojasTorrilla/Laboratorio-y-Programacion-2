@@ -1,0 +1,14 @@
+C:\Users\Lautaro\Desktop\New folder\20210717-RSP - Parcial carrera\20210717-RSP - alumno\obj\Debug\20210717-RSP - alumno.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\New folder\20210717-RSP - Parcial carrera\20210717-RSP - alumno\obj\Debug\20210717-RSP - alumno.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lautaro\Desktop\New folder\20210717-RSP - Parcial carrera\20210717-RSP - alumno\obj\Debug\_20210717_RSP___alumno.FrmCarrera.resources
+C:\Users\Lautaro\Desktop\New folder\20210717-RSP - Parcial carrera\20210717-RSP - alumno\obj\Debug\_20210717_RSP___alumno.FrmContador.resources
+C:\Users\Lautaro\Desktop\New folder\20210717-RSP - Parcial carrera\20210717-RSP - alumno\obj\Debug\_20210717_RSP___alumno.Properties.Resources.resources
+C:\Users\Lautaro\Desktop\New folder\20210717-RSP - Parcial carrera\20210717-RSP - alumno\obj\Debug\20210717-RSP - alumno.csproj.GenerateResource.cache
+C:\Users\Lautaro\Desktop\New folder\20210717-RSP - Parcial carrera\20210717-RSP - alumno\obj\Debug\20210717-RSP - alumno.csproj.CoreCompileInputs.cache
+D:\Progra y labo 2\Exámenes\20210717-RSP - Parcial carrera\20210717-RSP - alumno\obj\Debug\20210717-RSP - alumno.csproj.AssemblyReference.cache
+D:\Progra y labo 2\Exámenes\20210717-RSP - Parcial carrera\20210717-RSP - alumno\obj\Debug\20210717-RSP - alumno.csproj.SuggestedBindingRedirects.cache
+D:\Progra y labo 2\Exámenes\20210717-RSP - Parcial carrera\20210717-RSP - alumno\obj\Debug\_20210717_RSP___alumno.FrmCarrera.resources
+D:\Progra y labo 2\Exámenes\20210717-RSP - Parcial carrera\20210717-RSP - alumno\obj\Debug\_20210717_RSP___alumno.FrmContador.resources
+D:\Progra y labo 2\Exámenes\20210717-RSP - Parcial carrera\20210717-RSP - alumno\obj\Debug\_20210717_RSP___alumno.Properties.Resources.resources
+D:\Progra y labo 2\Exámenes\20210717-RSP - Parcial carrera\20210717-RSP - alumno\obj\Debug\20210717-RSP - alumno.csproj.GenerateResource.cache
+D:\Progra y labo 2\Exámenes\20210717-RSP - Parcial carrera\20210717-RSP - alumno\obj\Debug\20210717-RSP - alumno.csproj.CoreCompileInputs.cache

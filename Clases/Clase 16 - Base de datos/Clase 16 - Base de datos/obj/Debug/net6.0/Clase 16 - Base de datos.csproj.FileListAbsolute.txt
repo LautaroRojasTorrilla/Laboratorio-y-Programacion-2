@@ -1,0 +1,37 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\Clase 16 - Base de datos.exe
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\Clase 16 - Base de datos.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\Clase 16 - Base de datos.runtimeconfig.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\Clase 16 - Base de datos.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\Clase 16 - Base de datos.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\Entidades.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\Entidades.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\obj\Debug\net6.0\Clase 16 - Base de datos.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\obj\Debug\net6.0\Clase 16 - Base de datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\obj\Debug\net6.0\Clase 16 - Base de datos.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\obj\Debug\net6.0\Clase 16 - Base de datos.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\obj\Debug\net6.0\Clase 16 - Base de datos.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\obj\Debug\net6.0\Clase 16 - Base de datos.csproj.CopyComplete
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\obj\Debug\net6.0\Clase 16 - Base de datos.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\obj\Debug\net6.0\refint\Clase 16 - Base de datos.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\obj\Debug\net6.0\Clase 16 - Base de datos.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\obj\Debug\net6.0\Clase 16 - Base de datos.genruntimeconfig.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\obj\Debug\net6.0\ref\Clase 16 - Base de datos.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\Clase 16 - Base de datos.dll.config
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\obj\Debug\net6.0\Clase_16___Base_de_datos.Properties.Resources.resources
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 16 - Base de datos\Clase 16 - Base de datos\obj\Debug\net6.0\Clase 16 - Base de datos.csproj.GenerateResource.cache

@@ -1,0 +1,191 @@
+PLATAFORMA DE DESARROLLO
+
+Es un entorno de software que cuenta conjunto de herramientas que nos permite construir determinadas aplicaciones de software.
+C# y .NET ya ofrecen todas las herramientas para poder construis una aplicacion.
+
+
+------
+
+.NET
+
+De alto nivel, fuertemente tipado y orientada a objetos.
+Es adecuada a la forma que las personas nos comunicamos oralmente.
+Fuertemente tipado, NO permite violaciones entre los tipos de datos.
+Orientada a objetos, porque es una representación de algo tangible, se puede moldear algo del mundo real.
+
+ES MULTIPLATAFORMA, porque se puede desarrollar para varios sistemas.
+OPEN SOURCE, .NET 5, 6
+MULTILENGUAJE porque existe C#.
+
+---
+
+COMPONENTES:
+
+● Common Language Runtime (CLR)
+Es el entorno de ejecución, motor que ejecuta la aplicación.
+Administra, asigna y libera la memoria.
+Es una máquina virtual que compila el código. 
+Interpreta el lenguaje intermedio y lo pasa a binario para que la máquina lo pueda ejecutar.
+Manejo de errores en tiempo de ejecución.
+
+● Base Class Library (BCL)
+Conjunto de clases que exponen funcionalidades habituales.
+Es una librería incluída por muchos datos que permite acceder a los servicios ofrecidos por BLC
+
+● Componentes de infraestructura común (lenguajes, compiladores,
+sistema de proyectos, etc)
+● Frameworks (Windows Forms, WPF, ASP. NET)
+● Herramientas de desarrollo (editores de código, IDEs, línea de
+comandos)
+
+---
+
+PROCESO DE COMPILACION
+
+1) Se compila a lenguaje intermedio, se general las DLL
+
+2) Al ejecutarse la aplicación, el lenguaje intermedio se compilada
+a lenguaje nativo (máquina) por el CLR.
+
+---
+
+CTS
+Sistema de tipo común, conjunto de reglas que hay que seguir para que el CLR acepte los tipos de datos.
+Define los tipor por valor(stack) y por referencia(donde esta el valor de esa variable)
+
+Define un conjunto de tipos de datos común, a todos los lenguajes soportados por .NET. Esto establece un marco de herramienta que habilita la ejecución de los distintos lenguajes de la plataforma.
+Provee un modelo orientado a objeto y define un conjunto de reglas que todos los lenguajes deben seguir.
+Define los tipos de datos en 2 tipos, de valor y de referencia.
+
+---
+
+DECLARACION DE VARIABLE
+Se puede usar la clase o también los alias.
+
+int numero;
+Int32 numero2;
+
+STRING, ARRAY, DELEGADO
+Son tipo por referencia, van a tener su valor por defecto NULL
+
+---
+
+TIPOS DE DATOS
+
+• Las variables escalares son constantes o variable que contiene un dato atómico y unidimensional.
+
+• Las variables no escalares son array(vector), lista y objeto, que pueden tener almacenado en su estructura más de un valor.
+
+---
+
+namespace
+agrupa clases.
+
+---
+
+Tipos especiales: Object y dynamic
+
+Todos los tipos de datos en .NET derivan de un tipo de dato padre (class system object).
+A object le puedo agregar cualquier tipo de dato, PERO NO ES UNA BUENA PRÁCTICA.
+
+Dynamic
+Se puede almacenar cualquier valor, no es necesario de un casteo (Ver en video de nuevo)
+
+---
+
+Conversiones de tipos de datos
+
+Implicitas
+No interviene el programador (no requieren casteo).
+Realiza el compilador de manera autónoma.
+No deberían implicar pérdida de datos.
+Un ejemplo es:
+float numero;
+int numeroInt = 10;
+numero = numeroInt;
+
+
+Explicitas
+Interviene el programador (se requiere un casteo).
+Podrían implicar pérdida de datos.
+
+---
+
+foreach
+Permite iterar una lsita hasta el final de sus valores.
+Itera toda la lista, no se puede cambiar la dimensión como el for.
+
+int[] numeros = new int[2];
+
+numeros[0] = 10;
+numeros[1] = 20;
+
+foreach (var numero in numeros)
+{
+	Console.WriteLine(numero);
+}
+
+---
+
+ENTRY POINT
+Es la función Main.
+Es la primera función que se ejecuta. Si hay un error o hay más de 1 main, hay que indicar cuál queremos ejecutar.
+
+STATIC: Es un modificador que permite ejecutar un método sin tener que instanciar a una variable (sin crear un objeto). Lo podemos asignar a los atributos, métodos y clases.
+El método Main() debe ser estático.
+
+void: Indica el tipo de valor de retorno del método Main(). No necesariamente tiene que ser void.
+
+string [] args: Es un Array de tipo string que puede recibir el método Main() como parámetro. Este parámetro es opcional.
+
+---
+
+CONSOLE
+Es una clase pública que como programador podemos acceder desde fuera de su declaración, y estática porque no necesitamos crear un método para hacer uso de sus métodos y propiedades.
+
+Las aplicaciones de .NET pueden usar la clase System.Console para leer y escribir caracteres en la consola.
+Es miembro del NameSpace System.
+
+
+Metodos:
+
+• ReadLine() :Lee la siguiente línea de caracteres de la consola.
+Devuelve un string. Equivalente a gets() de C.
+
+• Write(): Escribe el string que se le pasa como parámetro a la salida
+estándar. Equivalente a printf() de C.
+
+• WriteLine(): Ídem método Write, pero introduce un salto de línea al
+final de la cadena.
+
+Propiedades:
+
+• BackGroundColor: Obtiene o establece el color de fondo de la consola.
+• ForeGroundColor: Obtiene o establece el color del texto de la consola.
+• Title: Obtiene o establece el título de la consola.
+
+------------
+
+Todos los tipos son tratados por detrás como si fuesen un objeto.
+TODOS HEREDAN DE LA CLASE PADRE OBJECT, adquieren sus métodos y atributos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

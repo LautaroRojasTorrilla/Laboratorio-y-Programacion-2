@@ -1,0 +1,166 @@
+ARCHIVOS Y SERIALIZACION
+
+Sistema de archivos, es elemento del SO.
+Almacenar y recuperar.
+
+---------------------------------
+
+FUNCIONES
+
+● Asignación de espacio a los archivos.
+
+● Administración del espacio libre y del acceso a los datos resguardados.
+
+● Estructurar la información guardada en un dispositivo de almacenamiento de datos.
+
+● Permite representar la estructura de forma textual o gráficamente (gestor de archivos).
+
+---------------------------------
+
+DIRECTORIO
+Dentro de un sistema de archivos, un directorio es una colección de archivos y otros directorios (sub-directorios) creado con fines organizacionales.
+COLOQUIALMENTE ES UNA CARPETA
+
+---------------------------------
+
+RUTA:
+Una ruta (path) es la forma de referenciar un archivo informático o directorio en un sistema de archivos de un sistema operativo determinado.
+
+Rutas absolutas:
+
+Señalan la ubicación de un archivo o directorio desde el directorio raíz del sistema de archivos.
+
+C:\usuarios\juan\archivo.txt
+
+Rutas relativas:
+
+Señalan la ubicación de un archivo o directorio en relación a la posición actual. Funcionan en base a la posición en la que estoy parado.
+
+. → representa la posición actual en la que estamos ubicados en el sistema de archivos.
+
+.\archivo.txt
+
+.. → nos mueve al directorio padre de la ubicación actual.
+
+..\..\otra_carpeta\archivo.txt
+
+---------------------------------
+
+TRABAJANDO CON RUTAS
+Clase Path
+
+DirectorySeparatorChar - Retorna el caracter separador de directorios para el sistema operativo sobre el que se ejecuta la aplicación.
+
+PathSeparator - Retorna el caracter que se usa para separar una lista de rutas en el sistema operativo sobre el que se ejecuta la aplicación.
+
+Combine() - Path.PathSeparator and it checks whether the first path already has a separator at the end so it will not duplicate the separators. Additionally, it checks whether the path elements to combine have invalid chars.
+
+Join() – Concatena paths.
+
+---------------------------------
+
+Directory
+Clase Directory
+
+GetCurrentDirectory() - Retorna la ruta correspondiente al directorio sobre el que se está ejecutando la aplicación. Alternativa a Environment.CurrentDirectory.
+
+Directory.Delete(string path) - Elimina el directorio especificado, siempre y cuando esté vacio.
+
+Directory.Exists(string) - Determina si la ruta de acceso dada hace referencia a un directorio existente en el disco
+
+GetFiles(String) - Devuelve los nombres de archivo (con sus
+rutas de acceso) del directorio especificado
+
+Directory.Delete(string, boolean) - Elimina el directorio especificado y, si está indicado, los subdirectorios y archivos que contiene
+
+---------------------------------
+
+Archivos
+
+• La clase StreamWriter escribe caracteres en archivos de texto.
+• La clase StreamReader lee desde un archivo de texto.
+
+StreamWriter (string path)
+Inicializa una nueva instancia de la clase StreamWriter, en un path específico. Si el archivo existe, se sobrescribirá, sino se creará.
+
+StreamWriter (string path, bool append)
+Ídem anterior, si append es true, se agregarán datos al archivo existente. Caso contrario, se sobrescribirá el archivo.
+
+StreamWriter (string path, bool append, Encoding e)
+Ídem anterior, dónde se le puede especificar el tipo de codificación que se utilizará al escribir en el archivo.
+
+---------------------------------
+
+Serializacion
+Para almacenar el objeto y después recrearlo en el futuro. O sea, almacenar el estado del objeto.
+
+La serialización es el proceso de convertir el estado de un objeto a un formato específico o secuencia de bytes con el objetivo de transmitirlo a otro sistema o para almacenarlo en un archivo, en memoria o en una base de datos.
+
+El proceso contrario, recuperar un objeto que fue serializado, se conoce como deserialización.
+
+Los formatos utilizados:
+XML y JSON
+
+----------
+
+Usos de serializar.
+Permite al desarrollador almacenar el estado de un objeto y recrearlo a necesidad.
+El objetivo puede ser almacenarlo o intercambiar datos con otro sistema.
+
+● Transferir el objeto a una aplicación o sistema externo a través de servicios web u otros sistemas de comunicación.
+
+● Pasar el objeto a otro proceso o máquina.
+
+● Persistir el objeto en una unidad de almacenamiento.
+
+● Persistir el objeto en una base de datos.
+
+----------
+
+Requisitos para serializar
+
+● Los atributos a serializar deben ser públicos o estar expuestos a través de propiedades de lectura-escritura.
+
+● Adicionalmente, para la serialización XML se debe tener un constructor público sin parámetros.
+
+----------
+
+¿Qué es XML?
+
+Extensible Markup Language (XML) es un lenguaje de marcado similar a HTML especificado por el World Wide Web Consortium (W3C).
+
+● Está diseñado para transferir datos.
+● Es case-sensitive.
+● Está compuesto de etiquetas </>.
+● Permite extender el lenguaje.
+
+W3C es un consorcio internacional que genera recomendaciones y estándares que aseguran el crecimiento de la World Wide Web (www) a largo plazo.
+
+----------------------------
+Hay que indicarle que se van a incluir los tipos en la serialización en XML.
+
+[Serializable]
+    [XmlInclude(typeof(Automovil)), XmlInclude(typeof(Moto)), XmlInclude(typeof(Camioneta))]
+
+----------------------------
+//VER DESDE ACA LO DE GESTOR DE ARCHIVOS!!!
+La manera de leer y escribr es siempre lo mismo, solamente va a haber que refactorizar algunas cosas.
+
+https://github.com/abongioannidev/PyL-ejercicios_resueltos/tree/master/Ejemplo%20-%20ArchivosYSerializacion
+
+Read()
+Lee un carácter del stream y avanza carácter a carácter. Retorna un entero.
+
+ReadLine()
+Lee una línea de caracteres del stream y lo retorna como un string.
+
+ReadToEnd()
+Lee todo el stream y lo retorna como una cadena de caracteres.
+
+----------------------------
+
+2:00 se ve bien cómo hacer lo de la lista
+
+
+
+

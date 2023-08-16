@@ -1,0 +1,12 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Creo que necesito un préstamo\Cuenta\bin\Debug\net6.0\Cuenta.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Creo que necesito un préstamo\Cuenta\bin\Debug\net6.0\Cuenta.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Creo que necesito un préstamo\Cuenta\bin\Debug\net6.0\Cuenta.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Creo que necesito un préstamo\Cuenta\obj\Debug\net6.0\Cuenta.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Creo que necesito un préstamo\Cuenta\obj\Debug\net6.0\Cuenta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Creo que necesito un préstamo\Cuenta\obj\Debug\net6.0\Cuenta.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Creo que necesito un préstamo\Cuenta\obj\Debug\net6.0\Cuenta.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Creo que necesito un préstamo\Cuenta\obj\Debug\net6.0\Cuenta.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Creo que necesito un préstamo\Cuenta\obj\Debug\net6.0\Cuenta.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Creo que necesito un préstamo\Cuenta\obj\Debug\net6.0\refint\Cuenta.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Creo que necesito un préstamo\Cuenta\obj\Debug\net6.0\Cuenta.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Creo que necesito un préstamo\Cuenta\obj\Debug\net6.0\ref\Cuenta.dll

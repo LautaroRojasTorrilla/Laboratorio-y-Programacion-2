@@ -1,0 +1,115 @@
+https://github.com/Albongle/Programacion-II
+
+TestGPT: La nueva herramienta para programadores, para asegurar la integridad del código 
+
+-----------------------------------------------------
+
+EXCEPCION
+Una excepción está definida como un evento inesperado que ocurre
+durante la ejecución de un programa.
+Estas pueden ser causadas por el usuario, lógica o errores del sistema.
+
+La gestión de errores nos permite ejecutar con éxito en momento de ejecución.
+Se controla a través de excepciones y cuando se lanza una, el programa se detiene. 
+
+------
+
+OBJETO EXCEPTION
+
+Todas las excepciones derivan de la clase Exception, que es parte de la base class library de .NET. Esto permite que todas las excepciones contengan mensajes descriptivos y distintas propiedades útiles para analizar los errores y prevenirlos.
+
+También es posible crear nuestros propios tipos de excepciones heredando de la clase Exception
+
+Es la clase base y desde la base, empiezan a derivar otras clases que son excepciones.
+
+------
+
+try
+{
+	Todo código que sea susceptible de ocasionar algún tipo de excepción.
+}
+catch (Exception ex) Puede tener como no. Herda de object
+{
+	
+}
+
+El programa, siempre tira para arriba la excepcion, hasta el main. En caso de tener varios métodos. Si no se captura ya en el main, tira la excepción.
+Solo se ejecuta el bloque catch cuando hay una excepción en el bloque try.
+
+------
+
+GENERAR NUESTRAS PROPIAS EXCEPCIONES
+
+ENTIDADES > CREAR CARPETA > Models > Calculadora
+ENTIDADES > CREAR CARPETA > Exceptions > public > ArgumentoInvalidoException : Exception
+
+Exception tiene 4 sobrecargas.
+
+- GENERO UN CONSTRUCTOR PARA MI EXCEPCION, CLICK DERECHO GENERAR UN CONSTRUCTOR QUE RECIBA UN MENSAJE Y EL OTRO QUE USAMOS EL DE LA EXCEPCION (EL MAS LARGO)
+
+//Recibe un mensaje y le pasa la excepción a la clase base.
+TODAS LAS EXCEPTION TIENEN LA PROPIEDAD INNEREXCEPTION, PUEDE SER NULA O NO.
+
+public ArgumentoInvalidoException(string? message, Exception? innerException): base(message, innerException)
+{
+	
+}
+
+// 
+
+Exception e = new Exception("Primer excepcion");
+
+ArgumentoInvalidoException a = new ArgumentoInvalidoException("mensaje", e);
+ArgumentoInvalidoException b = new ArgumentoInvalidoException("mensaje2", a);
+ArgumentoInvalidoException c = new ArgumentoInvalidoException("mensaje3", b);
+
+Si se hace un WHILE donde sea distinto a NULL Va a mostrar hasta la primer excepción que el inner va a ser null en ese momento.
+
+------
+
+STACKTRACE
+Devuelve un string, que representa una pila de llamadas en un cierto tiempo. 
+El orden en que se fueron llamando los métodos, desde dónde viene la llamada a ese método a esa propiedad que posiblemente produjo una excepción.
+Trabajan en orden LIFO.
+
+------
+
+TRY - CATCH
+
+try
+el codigo que puede producir una excepción.
+
+cath
+el resultado de lo que queremos hacer en el caso de que s eproduzca una excepción.
+
+AL FINAL VA LA MAS GENÉRICA!!!!
+
+finally
+Va el código que siempre queremos que se ejecute, sea cual sea el flujo de control. Se van a ejectuar aunque el control abandone el bloque try. Es útil para evitar la repetición de la instrucción y para liberar recursos tras el lanzamiento de una excepción.
+
+Si hay return, primero se ejecuta el finally y después el return.
+
+throw
+Se utiliza cuando se necesita lanzar una excepción. Interrumpe la secuencia de ejecución y transfiere el control al primer control catch en el caso que exista.
+Si lanzamos una nueva excepción, se pierde la excepción del argumento. Si queremos seguir almacenando, tenemos que usar innerexcepction.
+
+public double Dividir()
+{
+	try
+	{
+		return this.numeroA / this.numeroB;
+        }
+	catch (DivideByZeroException ex)
+        {
+		throw new ArgumentoInvalidoException("El divisor no puede ser cero", ex);
+	}
+}
+
+
+
+
+
+
+
+
+

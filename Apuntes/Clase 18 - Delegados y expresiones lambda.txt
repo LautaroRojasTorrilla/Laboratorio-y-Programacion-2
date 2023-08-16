@@ -1,0 +1,192 @@
+Delegados y expresiones lambda
+
+¿Qué es un DELEGADO?
+Es un tipo de referencia, que encapsula referencias a métodos con una firma en particular. Es simnilar a puntero a función.
+
+Podemos asociar su instancia con cualquier método que tenga una firma compatible.
+
+A través de la instancia del delegado podemos invocar al método referenciado.
+
+Derivan de la clase delegate y son sealed.
+
+------------
+
+No son lo mismo que un puntero a función:
+
+● Son orientados a objetos.
+
+● Encapsulan tanto la referencia al método como la instancia a la que pertenece.
+
+● Cuentan con seguridad de tipos.
+
+------------
+
+USOS COMUNES
+
+Usar métodos como argumentos
+Los parámetros de entrada de métodos y delegados pueden ser tipos delegados.
+El método Sort de la clase List recibe como argumento un delegado que contiene el criterio de comparación para el ordenamiento.
+
+Almacenar métodos como atributos
+También se pueden declarar atributos y propiedades como tipos delegados, permitiendo que un objeto almacene la referencia a un método de otro objeto para ejecutarlo posteriormente.
+
+Devolución de llamada asincrónica (asynchronous callback)
+Se pueden usar para notificar al invocador cuando una tarea prolongada ha terminado.
+
+Desacoplar y otorgar flexibilidad
+Son particularmente útiles cuando el código que contiene el método a invocar se desarrolla de manera independiente al código invocador.
+
+------------
+
+Se pueden crear propios con firmas particulares pero a la vez en .NET existen algunas clases que facilitan y generan.
+
+------------
+
+ACTION 
+
+Representa métodos que no retornan nada y tienen entre 0 y 16 parámetros de entrada.
+Es un tipo de delegado que encapsula la referencia a un método que no recibe parámetros y no retorna valor.
+
+Action<in T>
+Encapsula un método que sólamente recive un parámetro pero no retrona un valor.
+
+Action delegado = HacerAlgo;
+Action<int> delegado2 = HacerAlgo;
+
+Para asignarle un metodo al delegado solamente le pasamos el nombre, sin los parentesis, ya que sino lo estariamos invocando.
+
+
+FUNC
+Recibe argumentos entre <>, encapsula métodos que no reciben parametros pero retonan un valor de tipo especificado.
+
+Representa métodos que sí retornan algo y tienen entre 0 y 16 parámetros de entrada.
+
+Se van separando los atributos por comas y es el ultimo parametro el que determina el retorno. Primero van los de tipo de entrada.
+
+Func<int, string> delegadoFunc = Saludar;
+
+
+PREDICATE
+Representa métodos que retornan bool y reciben un parámetro de entrada.
+Se utiliza para realizar comparaciones.
+
+COMPARISON
+Recibe 2 tipos genéricos y tiene que retornar un entero. 
+Se utiliza para el método sort.
+
+------------
+
+SE LE PUEDEN AGREGAR REFERENCIAS A MÉTODOS.
+Cada uno necesita respetar alguna firma en particular y que lo que van a estar haciendo es encapsular referencias a métodos.
+
+------------
+
+DECLARACION DE DELEGADO.
+public delegate int MiDelegado(string value);
+
+------------
+
+Delegados multidifusión (multicast)
+
+Una misma instancia de un delegado puede referenciar a varios métodos y llamarlos a todos cuando se accione.
+
+La idea es de ejecutar siempre los que acumulás.
+
+------------
+
+EXPRESIÓN LAMBDA
+Son funciones anónimas
+
+Las expresiones lambda son funciones con una sintaxis diferente que permite utilizarlas en una expresión en lugar de los típicos métodos que son miembros de una clase.
+
+Permiten crear funciones anónimas. Una función anónima es una función que no tiene nombre ni declaración formal.
+
+Normalmente se utilizan como argumentos de métodos que tienen delegados como parámetros de entrada.
+
+El operador lambda (=>) se utiliza para separar la lista de parámetros del cuerpo del método anónimo.
+
+Los parámetros de entrada van a la izquierda del operador lambda y la sentencia o bloque de instrucciones al otro lado.
+
+Tiene retorno implícito, es lo que le sigue a la derecha de la flecha.
+Una vez que agrego las llaves, si quiero retornar algo se lo tengo que poner explícitamente.
+
+Func <int> funcPrueba = () => { Console.WriteLine("Hola Mundo desde mi action"); return 1; };
+
+lista.Where
+Es uno de los más comúnes y se pueden ir concatenando.
+
+Func<string, string, bool> ejemplo = (val1, val2) =>
+{
+	//escribo el código que quiera
+	return true;
+};
+SI NO LE PONGO LAS {} EL RETURN NO VA, PORQUE ES IMPLICITO.
+
+------------
+
+PUEDO TENER UN METODO QUE RETORNE UN DELEGADO
+
+static Func<string,string,string> Ejecutar(int cantidad)
+{
+	Console.WriteLine("Me inicializo");
+	string usuarioValido = "Admin";
+	string passwordValido = "12345";
+	int intentos = 0;
+	return (usuario, password) =>
+	{
+		Console.WriteLine("Me Ejecuto");
+		if (intentos < cantidad)
+		{
+			if (usuario == usuarioValido && password == passwordValido)
+			{
+				return "Bienvenido admin";
+			}
+			intentos++;
+			return "Usuario o password invalido";
+ 		}
+		Console.WriteLine("Ya no me ejecuto mas");
+		return "Usuario bloqueado";
+	};
+}
+
+Func<string, string, string> login = Ejecutar(3);
+
+Console.Writeline(login("Pepe", "1234"));
+//devuelve usuario o paas invalido.
+
+------------
+
+Delegado encapsula referencia métodos y también la instancia del objeto al que pertenece ese método.
+
+------------
+
+AL RECU,
+
+EXCEPCIONES, ARCHIVOS, SERIALIZAR EL MENU DE UNA PERSONA, TEST UNITARIOS, EVENTOS Y DELEGADOS (SIMULAR TOMAR PEDIDOS DE UNA BDC).
+
+Documentación de delegates
+
+https://learn.microsoft.com/es-mx/dotnet/csharp/programming-guide/delegates/using-delegates
+
+----------
+
+CAMBIA HERENCIA POR INTERFACE
+
+----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,174 @@
+CONCURRENCIA
+Capacidad de ejecutar múltiples tareas de forma simultanea, para mejorar el rendimiento de la aplicación(permite utilizar los recurso del sistema de manera más efectiva), interactividad y capacidad de respuesta, tareas paralelas, para realizar actualización y mantenimiento en producción.
+
+En programación hablamos de concurrencia cuando se ejecuta más de una tarea al mismo tiempo.
+
+Esta habilidad es útil cuando necesitamos que una aplicación haga alguna cosa mientras está trabajando en algo más.
+
+----------
+
+Uso de concurrencia en aplicaciones
+Permite que:
+
+● Los usuarios finales puedan interactuar con la interfaz de usuario de manera no-bloqueante.
+
+● Un servidor pueda atender varias peticiones en simultáneo y no afectar los tiempos de respuesta ante períodos de alta demanda.
+
+● Realizar tareas de cómputo complejas de manera más rápida y haciendo un uso más eficaz los recursos de la computadora.
+
+----------
+
+HILO
+
+Un hilo (thread), también llamado hebra o subproceso, es la unidad básica a la que un sistema operativo asigna tiempo de procesamiento.
+
+Son los encargados de ejecutar nuestro código sentencia a sentencia.
+
+----------
+
+PROCESO
+
+Un proceso es un programa en ejecución que tiene asignados recursos tales como memoria e hilos.
+
+Todos los hilos de un mismo proceso comparten los mismos recursos asignados por el sistema operativo.
+
+Puede ser una petición a una base de datos o sino algún cálculo matemática a una unidad de procesamiento (ambos muy costosos).
+
+----------
+
+PROGRAMACIÓN MULTI-HILO
+
+Por defecto, cada proceso tiene un único hilo.
+
+La programación multi-hilo (multithreaded programming) permite que un proceso se ejecute sobre múltiples hilos y cada uno de esos hilos esté realizando una tarea distinta en paralelo.
+
+La programación en paralelo (parallel programming) es un sub-tipo de programación multi-hilo.
+Se utiliza para dividir una gran carga de trabajo en partes independientes y ejecutarlas en paralelo, maximizando el uso de los núcleos de la CPU.
+
+----------
+
+CICLO DE VIDA
+
+Se llama hilo principal (main thread) al primer hilo sobre el que se empezó a ejecutar la aplicación.
+
+A partir de un hilo se pueden abrir nuevos hilos
+secundarios.
+
+Un hilo secundario va a tener su propia pila de ejecución, independiente de la de origen.
+
+El proceso existirá mientras al menos uno de sus hilos de ejecución siga activo.
+
+Cuando todos los hilos de ejecución finalizan, el proceso no existe más y todos sus recursos son liberados.
+ 
+El proceso de la aplicación va a seguir vivo mientras menos de 1 de sus hilos de ejecución siga vivo. Se debe garantizar que ambos hilos finalicen.
+
+----------
+
+Desde el hilo ppal se debe abrir un nuevo hilo y ejecutar la tarea en paralelo.0
+
+----------
+
+Task
+
+● Task es la clase que utilizaremos para ejecutar métodos en un nuevo hilo.
+
+● Task nos permitirá manejar también el estado de dicho hilo.
+
+● Task es la evolución de la clase Thread de .Net Framework. Lo mejora, facilita la utlización, la hace más sencilla.
+
+Task task = Task.Run(ImprimirHora);
+Tiene una sobrecarga que es un CancellationToken, que permite cancelar la tarea secundaria.
+
+Task tarea = Task.Run(MiMetodo);
+Console.WriteLine("La taresa esta iniciada e imprimo en paralelo 1");
+Console.WriteLine("La taresa esta iniciada e imprimo en paralelo 2");
+Console.WriteLine("La taresa esta iniciada e imprimo en paralelo 3");
+Console.WriteLine("La taresa esta iniciada e imprimo en paralelo 4");
+
+//le inidco que espere que termine el hilo secundario antes de matar todo.
+tarea.Wait();
+
+----------
+
+¿En qué hilo me encuentro?
+
+● La propiedad Thread.CurrentThread.ManagedThreadId retorna el id del hilo en el que se está ejecutando esa instrucción.
+
+● La propiedad Task.CurrentId retorna el id de la tarea, es decir, de la instancia de Task.
+
+----------
+
+Hilos de Ejecución
+
+● Otra forma de ejecutarlo es mediante el método estático Run.
+
+● Si usamos este método, la tarea se instanciará e inicializará al mismo tiempo, ejecutando el método en algún hilo disponible en el thread pool.
+
+● O utilizando expresiones lamda para crear un método anónimo.
+
+● Esto solo es recomendable si la tarea no se utilizará en otro lugar y es una tarea simple.
+
+----------
+
+Hilos con métodos parametrizados
+
+● El método utilizado puede tener parámetros.
+● Para esto deberemos utilizar expresiones Lambda.
+
+----------
+
+Cancelar Hilo
+
+● Debemos instanciar un CancellationTokenSource.
+● Obtener de la instanciar un CancellationToken con la propiedad Token.
+● Pasar el CancellationToken como argumento a nuestro Task.
+● Accionar el CancellationToken con el método .Cancel() cuando se quiera cancelar el hilo.
+
+----------
+
+Hilos y Controles Visuales
+Los formularios corren en 2 hilos, en algún momento par amodificar los controles visuales, debemos darle la orden al hilo dónde está corriendo el form de que queremos modificar eso.
+Le consultamos al control o al formulario si necesita ser invocado el hilo principal.
+
+● Si deseamos modificar un control visual de un formulario (TextBox, ComboBox, Label, etc.) desde un hilo diferente al principal (“dueño” de estos controles) deberemos invocar a dicho hilo.
+
+● Para esto le consultaremos al control si necesita ser invocado el hilo principal (InvokeRequired).
+
+● Luego invocaremos dicho hilo (BeginInvoke) mediante un delegado.
+
+● Dicha invocación puede necesitar parámetros.
+
+● Para resolver este caso, utilizaremos un array de Object.
+
+● Al realizar el Invoke (sincrónico, espera que un Thread finalice para ejecutar otro) o BeginInvoke (asincrónico) se pasará el delegado y dicho array.
+
+----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

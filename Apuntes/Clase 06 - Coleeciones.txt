@@ -1,0 +1,121 @@
+https://onlinegdb.com/_FjZErtjL
+Es lo del form.
+
+https://www.youtube.com/watch?v=xXd-44d_xgc&t=2s
+Introducción, ensamblados y demás.
+-------------------------------
+
+MATRICES
+Son arrays.
+
+Estructuras de datos que permiten almacenar múltiples variables del tmismo tipo. 
+
+Dimensionalidad
+Tamaño Fijo
+Indexación base-cero
+valor por defecto.
+
+Cuadno se declara una array, no se genera hasta que se declara la isntancia.
+
+----------
+
+COLECCIONES
+Las colecciones son objetos especializados en almacenar, organizar y administrar una gran cantidad de datos. Son de tamaño dinámico, son fuertemente tipadas.
+Quiere decir que cuando se declara una colección de un tipo, solamente se pueden agregar elementos de ese tipo.
+
+Proporciona una manera flexible para trabajar con grupos de objetos. Se pueden aumentar y reducir dinámicamente, a medida que lo hace la aplicación.
+
+Tamaño dinámico
+Enumerable (foreach)
+Copiar contenido a array
+Indexación base-cero
+
+ES UNA CLASE, SE DEBE DECLARAR ANTES DE AGREGARLE UN ELEMENTO.
+
+GENERICAS
+System.Collections.Generic
+Cumple con la seguridad de tipos, le indicamos específicamente el tipo con el que estará trabajando, para que no se puede agregar de otro tipo de dato.
+Se trabaja siempre con el tipo de dato que se crea.
+
+Es útil cuando todos los elementos tienen el mismo tipo.
+
+List<int> edad;
+edad = new List<int>();
+
+-----
+
+NO GENERICAS
+No deberíamos usarlas.
+Son las incluídas en System.Collections
+
+No almacenan lo elementos como objetos de un tipo específico, sino como tipo object.
+Generan coleccione donde se pueden agregar distintos tipos de elementos.
+
+----------
+
+COLECCIONES GENERICAS
+
+List <T>
+
+Se recorre con una estrcutura iteractiva
+Se accede con el índice entre corchetes.
+
+
+Add() = Permite agregar un objeto a la lista.
+Remove() = eliminar elemento
+
+---
+
+Dictionary <TKey, TValue>
+Se organizan por clave y valor. El limitante es que la clave no se puede repetir y la clave puede ser un objeto que hayamos creado.
+Solamente puede tener 1 solo tipo de clave y la misma no se puede repetir.
+
+this.Miduc.Add(",","valor")
+
+---
+
+Queue <T>
+Es una colecci[on de objetos que tiene un orden. Primero en entrar y primero en salir. FIFO
+No se pueden ordenar, porque no tiene sentido. Para hacerlo hay que convertirlo a lista. Con el método tolist().
+
+Enqueue = agregar elementos
+Dequeue = quitar elementos
+Peek = muestra el próximo en salir
+
+
+---
+
+Stack <T>
+Representan una colección de objetos con el orden del último en entrar es el primero en salir. LIFO
+Tampoco se pueden ordenar.
+
+push() = agregar elementos
+
+---
+
+SortedList<>
+
+Es una colección genérica que representa una colección de pares clave valor que se ordenan por clave.
+Se puede acceder en base a la posición o a la clave.
+No sabe cómo comprar un objeto de tipo "persona"
+
+-----------------------
+
+INDEXADORES
+
+Permiten acceder a los datos del objeto, a través de un índice.
+Permite a la instancia de una clase, ser indexada como si fuese un array.
+
+Declaración es como una propiedad, pero recibe parámetros y tiene la palabra reservada this. VER DIAPO.
+Indexamos la instancia. Se trabajan como si fuesen una propiedad más.
+
+This porque indexa la instancia y luego recibe el atributo y el tipo por el cual indexamos. 
+En los descriptores de acceso generamos código respecto a esa indexación que generamos arriba.
+
+string.value = p[1];
+
+
+
+
+
+

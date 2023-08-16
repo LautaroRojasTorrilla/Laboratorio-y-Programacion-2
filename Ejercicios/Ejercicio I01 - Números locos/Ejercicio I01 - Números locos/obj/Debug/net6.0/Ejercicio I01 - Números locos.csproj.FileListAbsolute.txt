@@ -1,0 +1,15 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Números locos\Ejercicio I01 - Números locos\bin\Debug\net6.0\Ejercicio I01 - Números locos.exe
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Números locos\Ejercicio I01 - Números locos\bin\Debug\net6.0\Ejercicio I01 - Números locos.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Números locos\Ejercicio I01 - Números locos\bin\Debug\net6.0\Ejercicio I01 - Números locos.runtimeconfig.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Números locos\Ejercicio I01 - Números locos\bin\Debug\net6.0\Ejercicio I01 - Números locos.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Números locos\Ejercicio I01 - Números locos\bin\Debug\net6.0\Ejercicio I01 - Números locos.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Números locos\Ejercicio I01 - Números locos\obj\Debug\net6.0\Ejercicio I01 - Números locos.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Números locos\Ejercicio I01 - Números locos\obj\Debug\net6.0\Ejercicio I01 - Números locos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Números locos\Ejercicio I01 - Números locos\obj\Debug\net6.0\Ejercicio I01 - Números locos.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Números locos\Ejercicio I01 - Números locos\obj\Debug\net6.0\Ejercicio I01 - Números locos.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Números locos\Ejercicio I01 - Números locos\obj\Debug\net6.0\Ejercicio I01 - Números locos.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Números locos\Ejercicio I01 - Números locos\obj\Debug\net6.0\Ejercicio I01 - Números locos.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Números locos\Ejercicio I01 - Números locos\obj\Debug\net6.0\refint\Ejercicio I01 - Números locos.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Números locos\Ejercicio I01 - Números locos\obj\Debug\net6.0\Ejercicio I01 - Números locos.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Números locos\Ejercicio I01 - Números locos\obj\Debug\net6.0\Ejercicio I01 - Números locos.genruntimeconfig.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Números locos\Ejercicio I01 - Números locos\obj\Debug\net6.0\ref\Ejercicio I01 - Números locos.dll

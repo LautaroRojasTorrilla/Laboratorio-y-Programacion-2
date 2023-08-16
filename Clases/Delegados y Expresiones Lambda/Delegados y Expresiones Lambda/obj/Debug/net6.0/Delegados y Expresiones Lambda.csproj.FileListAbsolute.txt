@@ -1,0 +1,18 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\bin\Debug\net6.0\Delegados y Expresiones Lambda.exe
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\bin\Debug\net6.0\Delegados y Expresiones Lambda.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\bin\Debug\net6.0\Delegados y Expresiones Lambda.runtimeconfig.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\bin\Debug\net6.0\Delegados y Expresiones Lambda.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\bin\Debug\net6.0\Delegados y Expresiones Lambda.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\bin\Debug\net6.0\Entidades.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\bin\Debug\net6.0\Entidades.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\obj\Debug\net6.0\Delegados y Expresiones Lambda.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\obj\Debug\net6.0\Delegados y Expresiones Lambda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\obj\Debug\net6.0\Delegados y Expresiones Lambda.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\obj\Debug\net6.0\Delegados y Expresiones Lambda.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\obj\Debug\net6.0\Delegados y Expresiones Lambda.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\obj\Debug\net6.0\Delegados y Expresiones Lambda.csproj.CopyComplete
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\obj\Debug\net6.0\Delegados y Expresiones Lambda.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\obj\Debug\net6.0\refint\Delegados y Expresiones Lambda.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\obj\Debug\net6.0\Delegados y Expresiones Lambda.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\obj\Debug\net6.0\Delegados y Expresiones Lambda.genruntimeconfig.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Delegados y Expresiones Lambda\Delegados y Expresiones Lambda\obj\Debug\net6.0\ref\Delegados y Expresiones Lambda.dll

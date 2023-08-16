@@ -1,0 +1,91 @@
+https://www.onlinegdb.com/tF3xgRWax
+
+
+https://www.onlinegdb.com/du1y9sMFA
+----------
+
+HERENCIA
+
+Se trata de una relación entre una o más clases en la que se comparten los atributos y métodos definidos en otra clase.
+Se parte de una clase muy general, como por ejemplo animal, a clases más especialidas o específicas (perro o gato).
+Menos los constructores, cuando establezco una herencia se hereda todo.
+
+-----
+
+HERENCIA SIMPLE.
+Una clase hija puede tener únicamente una clase padre.
+
+HERENCIA MULTIPLE
+No soportada por c#. 1 hija no puede tener 2 padres.
+
+HERENCIA MULTINIVEL
+Una clase hereda de otra, y hay una clase intermedia que hereda de un padre.
+OBJECT es el mejor ejemplo, todo hereda de ahí.
+
+-----
+
+PRINCIPIO DE SUSTITUCIÓN DE LISKOV
+Cada clase que hereda de otra puede usarse como su padre sin necesidad de conocer las diferencias entre ellas.
+
+Vehiculo vehiculo = new Taxi();
+
+Si la clase A, hereda de clase B. La clase A debe poder ser utilizada dónde se espera una instancia de la clase B. Sin que haya error o comportamiento inesperado.
+
+-----
+
+public sealed class Taxi : Vehiculo
+
+Una clase sellada hace que no pueda heredar de ella
+Puede instanciarse
+Puede tener constructores, sobrecargas.
+
+-----
+
+El significado del modificador de acceso protected depende de la relación entre la clase que tiene el modificador y la clase que intenta acceder a los miembros que usan el modificador. 
+
+Para una clase derivada, la palabra reservada protected es equivalente a la palabra public.
+
+Entre dos clases que no tengan una relación  base-derivada, por el contrario, los miembros protegidos de una clase se comportan como miembros privados para la otra clase.
+
+Cuando una clase derivada hereda un miembro pr
+Cuando una clase derivada hereda un miembro protected, ese miembro también es implícitamente un miembro protegido de la clase derivada.
+Esto significa que todas clases que deriven directa o indirectamente de la clase base pueden acceder a los miembros protegidos.
+
+Los métodos de una clase derivada sólo tienen acceso a sus propios miembros heredados con protección. No pueden acceder a los miembros protegidos de la clase base a través de referencias a ésta
+
+-----
+
+Puede crear una lista del padre y agregar a objetos hijos.
+
+List<Vehiculo>...
+
+lista.Add(taxi);
+lista.Add(autobus);
+
+foreach(Vehiculo vechiculo in lista)
+{
+	if(vehiculo is Taxi)//puedo castear aca directamente (vehiculo is taxi taxi2)
+	{
+		Taxi taxi2 = (Taxi)vehiculo;
+		taxi2.HacerCarrera();
+	}
+}
+
+Cuando tengo una lista general, por ahora, debo ver a mano cada caso para saber de qué me están hablando.
+
+--------------------------------------
+
+Hora 21:41
+Explica lo que tenemos que probar.
+
+paso con alt + 165
+
+
+
+
+
+
+
+
+
+

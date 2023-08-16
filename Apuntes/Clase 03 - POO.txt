@@ -1,0 +1,145 @@
+REFACTORIZAR
+Cambiar el diseño sin modificar el funcionamiento.
+No se trata de agregar nuevas funcionalidad, únicamente para mejorar el diseño interno del programa, enprolijar el código.
+
+------
+
+PARADIGMA DE PROGRAMACION
+
+Es un estilo de desarrollo de programa, modelo para resolver problemas computacionales. 
+Dentro de los distintos paradigmas hay 2 bien declarados. Imperativo y declarativo.
+
+---
+
+POO
+
+Es un paradigma de programación que propone resolver problemas a través de identificar objetos de la vida real, sus atributos (datos), su comportamiento (acciones) y las relaciones de colaboración entre ellos.
+
+---
+
+PILARES DE POO
+Encapsulamiento
+Abstracción
+Herencia
+Polimorfismo
+
+ABSTRACCION
+Es ignoracia selectiva, se decida que es imporatante y que no para el objeto. Nos enfocamos en lo importante.
+
+En análisis/diseño orientado a objetos, consiste en:
+❖ Identificar las entidades que forman parte de nuestro contexto de negocio o problema a resolver.
+❖ Definir las características esenciales de una entidad que la distinguen de otros tipos de entidades.
+❖ Descartar las características que no sean relevantes, conservando aquellas que sean importantes en el contexto del problema.
+
+------
+
+CLASE
+La definición de un objeto es la clase.
+
+Una clase es una descripción de un conjunto de objetos que comparten los mismos atributos, métodos, relaciones y semántica en un determinado contexto.
+Una clase es una implementación de una abstracción.
+NO SE CREAN EN TIEMPO DE EJECUCION.
+
+---
+Detalle importante: Cuando ejecutamos la linea Persona p = new Persona(); estamos ejecutando 2 instrucciones:
+
+- La palabra reservada new se encarga de reservar espacio en memoria y devolver la referencia
+-El constructor SOLAMENTE INICIALIZA los valores del objeto
+---
+
+LOS OBJETOS SON POR TIPO DE REFERENCIA. Si cambio un valor de un objeto, en realidad cambia el objeto al que está referenciando.
+
+COMPOSICION
+
+Atributos
+Representan características que son compartidas por todos los objetos de una clase. Definen el rango de valores que puede tomar cada una de las propiedades de un objeto.
+Utilizar notación lowerCamelCase y sustantivos.
+
+Métodos
+Un método es la implementación de una operación. Una operación es una abstracción de algo que puede hacer un objeto y que es compartido por todos los objetos de esa clase.
+Utilizar notación UpperCamelCase y verbos.
+
+------
+
+OBJETOS
+
+Los objetos son instancias de una clase.
+Una instancia es una manifestación concreta de algo.
+Las clases son el molde o plano a partir de las cuales se crean los objetos.
+
+------
+
+CONSTRUCTORES
+
+Un constructor es un método especial cuya función es darle un valor inicial a los atributos de un objeto para asegurar el correcto funcionamiento del mismo.
+
+TIPOS:
+
+De Instancia/No estáticos Estáticos
+● Estos se utilizan para inicializar objetos al momento de su creación.
+● En C#, la única forma de crear un objeto es mediante el uso de la palabra reservada new para adquirir y asignar memoria.
+● Aunque no se escriba ningún constructor, existe uno por defecto que se usa cuando se crea un objeto a partir de un tipo referencia.
+● Los constructores llevan el mismo nombre de la clase.
+
+Estáticos
+● Son invocados por el entorno de ejecución (CLR) una única vez.
+○ En la primera interacción con la clase.
+○ Siempre es el primer constructor en invocarse.
+● No pueden ser invocados de otra forma.
+○ No tienen modificador de acceso.
+○ No tienen parámetros de entrada.
+● Al igual que los métodos estáticos, sólo
+permiten trabajar con otros miembros que
+también sean estáticos.
+
+---
+
+Características de los objetos
+Los objetos viven en memoria
+En C#, los objetos se crean a partir de clases, las cuales son tiposde referencia. Por consecuencia, se almacenan en el sector heap de la memoria.
+
+Si decimos que los objetos existen como bloques de memoria, entonces los objetos existen únicamente en tiempo de ejecución.
+
+Los objetos tienen identidad
+La identidad es la propiedad que permite diferenciar a un objeto ydistinguirse de otros.
+
+Los objetos de un mismo tipo (misma clase) tienen las mismas propiedades pero almacenan valores independientes.
+
+Por defecto, dos objetos son el mismo si tienen la misma referencia a memoria. Es decir, son la misma instancia.
+
+Los objetos se comunican
+Si están relacionados, los objetos pueden enviar y recibir mensajes de otros objetos (comunicarse/interactuar).
+
+El comportamiento de un objeto son las acciones que puede realizar al recibir un mensaje de otro objeto.
+
+---
+
+DESTRUCCION DE UN OBJETO
+
+El tiempo de vida de una variable local está vinculado al ámbito en el que está declarada.
+● Tiempo de vida corto (en general).
+● Creación y destrucción deterministas.
+
+El tiempo de vida de un objeto no está vinculado a su ámbito.
+● Tiempo de vida más lasrgo.
+● Destrucción no determinista.
+
+Los objetos se destruyen por un proceso conocido como recolección de basura.
+
+En este proceso, un programa (Garbage collector) busca objetos inalcanzables y los destruye. Los convierte de nuevo en memoria binaria no utilizada.
+
+---
+
+DESDE UN METODO DE INSTANCIA PUEDO ACCEDER A UN ATRIBUTO/MIEMBRO ESTATICO.
+NO PUEDO ACCEDER A LOS QUE SEAN DEL OBJETO, DE LA INSTANCIA.
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,275 @@
+https://github.com/abongioannidev/PyL-ejercicios_resueltos/tree/master/Ejemplo%20-%20SQLBASE DE DATOS
+
+----------
+
+Una base de datos es un conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su posterior uso.
+
+● Persisten una gran cantidad de información.
+● Segurizan el acceso a los datos.
+● Organizan y estructuran los datos por tipo y relación.
+
+----------
+
+TABLAS
+
+Son una colección de datos relacionados organizados en filas y columnas.
+
+Las columnas (atributos) definen un conjunto de datos de un tipo particular. Las filas tomarán un valor concreto para cada columna de la tabla.
+
+Una fila (tupla / registro) contiene un valor específico para cada columna. Representan un conjunto de datos relacionados con la misma estructura, la cual está definida por las columnas.
+
+Un campo (celda) es donde una columna y una fila se intersectan. Contiene un valor concreto definido por la columna y perteneciente al conjunto de datos de la fila.
+
+----------
+
+CREAR UNA TABLA
+
+TABLES ---> NEW TABLE
+ALLOW NULL ---> Permite que el campo sea null, si se destilda se convierte en campo obligatorio
+
+VARCHAR 
+Es un STRING de longtiud variable
+
+ID ---> En la parte de abajo están las propiedades Identity Specification, isIdentify hace que no se pueda repetir.
+
+----------
+
+BASES DE DATOS RELACIONALES
+Se relacionan las tablas a través de campos.
+
+Llamamos así a toda base de datos que cumple con el modelo relacional.
+
+Dicho paradigma consiste en generar relaciones entre los datos guardados en diferentes tablas, y a través de estas relaciones, conectar dichas tablas.
+
+Las relaciones se llevarán a cabo a través de campos especiales, conocidos como claves primarias (primary key) y claves foráneas (foreign key).
+
+PARA HACER UNA PK, HAY UNA LLAVECITA EN LA PARTE SUPERIOR DERECHA.
+
+KEYS ---> NEW FK ---> 3 puntitos y permite relacionar.
+sino
+DIAGRAMS ---> Se puede arrastras de una a otra.
+
+----------
+
+CARDINALIDAD
+
+En modelado de datos se llama cardinalidad al número de instancias o elementos de una entidad que pueden asociarse a un elemento de la otra entidad relacionada.
+
+Uno a uno
+Una instancia de la Tabla A se puede relacionar con una y
+sólo una instancia de la Tabla B.
+
+Uno a muchos
+Una instancia de la Tabla A se puede relacionar con varias
+instancias de la Tabla B, pero una instancia de la Tabla B
+sólo puede estar relacionada a una instancia de la Tabla A.
+
+Muchos a muchos
+Varias instancias de la Tabla A se podrán relacionar con
+varias instancias de la Tabla B y viceversa.
+
+----------
+
+DBMS
+
+Un sistema de administración de bases de datos (DBMS) es es un conjunto de programas que permiten el almacenamiento, modificación y extracción de la información en una base de datos.
+
+Permite:
+● Controlar el acceso a los datos.
+● Asegurar la integridad de los datos, buen modelado de la base de datos.
+● Gestionar el acceso concurrente a ellos.
+● Recuperar los datos tras un fallo del sistema.
+
+----------
+
+EXPORTAR LA BASE DE DATOS
+
+Click derecho sobre la base ---> TASKS ---> BACK UP
+
+ADD ---> en donde quiéramos guardarlo ---> MiBackup.bak
+Eliminamos la que no es.
+
+
+IMPORTAR LA BASE DE DATOS
+
+Click derecho en DATABASE ---> Restore database ---> DEVICE ---> ADD y busco el archivo.
+
+Desde la base con los datos puedo generar un script para generar toda la base de datos.
+SOBRE LA BASE TASKS ---> GENERATE SCRIPTS ---> Selec specific database ---> Selecciono todas ---> Save a script file 
+
+----------
+
+INSERTAR DATOS EN LA TABLA
+
+NEW QUERY
+
+INSERT INTO sectores (descripcion)
+VALUES ('Programacion');
+
+INSERT INTO EMPLEADOS (nombre, apellido, id_sector)
+VALUES ( 'LAUTARO', 'ROJAS', 1);
+
+TABLE ---> EDIT TOP 200 ROWS
+
+----------
+
+MOSTRAR DATOS
+
+SELECT * FROM EMPLEADOS
+WHERE nombre = 'Carlos' AND APELLIDO = 'cualquier cosa';
+
+SELECT nombre, apellido FROM empleados
+WHERE ID = 2;
+
+SELECT nombre, apellido FROM empleados
+WHERE nombre LIKE 'j%';
+
+// cada _ es la cantidad de caracteres
+SELECT nombre, apellido FROM empleados
+WHERE nombre LIKE '___n';
+
+
+SELECT * FROM empleados
+WHERE nombre IN ('Carlos', 'Juan');
+
+----------
+
+SELECT * FROM empleados;
+
+SELECT * FROM EMPLEADDOS AS E, SECTORES AS S;
+
+//estamos haciendo un inner join
+
+SELECT e.apellido, e.nombre, s.descripcion
+FROM empleados AS e, sectores as s
+WHERE id_sector = s.id;
+
+
+SELECT e.apellido, e.nombre, s.descripcion
+FROM empleados AS e 
+INNER JOIN sectores AS s ON e.id_sector = s.id;
+
+----------
+
+DELETE FROM empleados
+WHERE id = 3;
+
+
+UPDATE empleados set APELLIDO = '' WHERE apellido = 'Bisbao':
+
+----------
+
+VER ---> EXPLORADOR DE OBJETOS DE SQL SERVER
+SQL SERVER ---> AGREGAR SQL SERVER ---> LOCAL ---> BUSCAR LA CONEXION (suele ser la primera) ---> Permite manipular las tablas.
+
+
+
+----------
+
+ADO.NET
+
+es una tecnologia que permite el acceso y la manipulación eficiente de los datos mediante un conjunto de clases, interfaces y estructuras permitiendo la creación de aplicaciones distribuidas.
+Se hace a trav[es de la clase Command.
+
+
+CREAR PROYECTO DE CONSOLA ---> BIBLIO DE CLASE
+
+----------
+
+SQL Server connection strings
+Para realizar una conexion a la base de datos, vamos a necesitar una cadena de conexión
+
+Trusted connecction es la que más vamos a usar.
+
+Server=myServerAddress;Database=myDataBase;Trusted_Connection=True;
+
+
+----------
+
+
+
+Tenemos que instalar una dependencia de paquetes nuggets
+Dependencias de entidades -> boton derecho -> administrar nuggets
+sql client
+se pueden usar cualquier de las 2
+
+HACER LA CONEXION
+
+using System.Data.SqlClient;
+
+static string stringConnection = "Server=.;Database=Clase 15;Trusted_Connection=True;";
+
+public static object GetEmpleado()
+{
+	SqlConnection connection = new SqlConnection(stringConnection);
+	string sentencia = "SELECT * FROM EMPLEADOS";
+	SqlCommand cmd = new SqlCommand(sentencia, connection);
+}
+
+connection.Open();
+connection.Close();
+----------
+
+PROPIEDADES ENCAPSULAR PERO SEGUIR USANDOLO!
+
+----------
+
+Ejemplo de inyeccion SQL si tengo un metodo que retorne un empleado por un nombre recibido por paremtro:
+
+string nombre = "Juan OR 1=1"
+
+SELECT * FROM EMPLEADOS WHERE NOMBRE = nombre
+
+Cuando ejecutemos la sentencia de arriba, esa consulta me trae todos los datos, porque me incluye un dato si el nombre del empleado es juan o si 1 es igual a 1
+
+----------
+
+¿Qué es Inyección SQL ?
+
+Una inyección SQL consiste en una inserción o inyección de una consulta SQL desde la entrada de datos en el cliente de una aplicación, una inyección exitosa puede leer información sensible desde la base de datos, modificarla ejecutar operaciones administrativas y en algunos casos hasta ejecutar comandos en el sistema operativo.
+
+Si una aplicación web utiliza bases de dato SQL es vulnerable a una inyección.
+
+ADO.NET tiene métodos para hacerlo más seguro.
+
+----------
+
+EN LA SOLUCION ----> AGREGAR NUEVO ELEMENTO ----> app.config
+
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<connectionStrings>
+		<add name="myConnection" connectionString="Server=.;Database=Clase 15;Trusted_Connection=True;"/>
+	</connectionStrings>
+	<appSettings>
+		<add key ="saludo" value="Hola Mundo!"/>
+	</appSettings>
+</configuration>
+
+CLASE 16 ----> PROPIEDADES ----> RECURSOS ----> Crear o abrir recursos ensamblados ----> SE PUEDEN GENERAR CONEXIONES Y AGREGAR DISTINTOS TIPOS DE RECURSOS 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

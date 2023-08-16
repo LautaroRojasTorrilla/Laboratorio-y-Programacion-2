@@ -1,0 +1,20 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\bin\Debug\net6.0-windows\Sabado 22-04.exe
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\bin\Debug\net6.0-windows\Sabado 22-04.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\bin\Debug\net6.0-windows\Sabado 22-04.runtimeconfig.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\bin\Debug\net6.0-windows\Sabado 22-04.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\bin\Debug\net6.0-windows\Sabado 22-04.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\obj\Debug\net6.0-windows\Sabado 22-04.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\obj\Debug\net6.0-windows\Sabado_22_04.FrmPrincipal.resources
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\obj\Debug\net6.0-windows\Sabado 22-04.csproj.GenerateResource.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\obj\Debug\net6.0-windows\Sabado 22-04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\obj\Debug\net6.0-windows\Sabado 22-04.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\obj\Debug\net6.0-windows\Sabado 22-04.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\obj\Debug\net6.0-windows\Sabado 22-04.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\obj\Debug\net6.0-windows\Sabado 22-04.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\obj\Debug\net6.0-windows\refint\Sabado 22-04.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\obj\Debug\net6.0-windows\Sabado 22-04.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\obj\Debug\net6.0-windows\Sabado 22-04.genruntimeconfig.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\obj\Debug\net6.0-windows\ref\Sabado 22-04.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\obj\Debug\net6.0-windows\Sabado_22_04.FrmEmpleado.resources
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\obj\Debug\net6.0-windows\Sabado_22_04.FrmGestion.resources
+C:\Users\Lautaro\Desktop\Progra y labo 2\Sabado 22-04\Sabado 22-04\obj\Debug\net6.0-windows\Sabado_22_04.Properties.Resources.resources

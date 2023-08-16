@@ -1,0 +1,18 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\obj\Debug\net6.0\Sobrecarga.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\obj\Debug\net6.0\Sobrecarga.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\obj\Debug\net6.0\Sobrecarga.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\obj\Debug\net6.0\Sobrecarga.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\obj\Debug\net6.0\Sobrecarga.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\bin\Debug\net6.0\Sobrecarga.exe
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\bin\Debug\net6.0\Sobrecarga.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\bin\Debug\net6.0\Sobrecarga.runtimeconfig.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\bin\Debug\net6.0\Sobrecarga.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\bin\Debug\net6.0\Sobrecarga.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\bin\Debug\net6.0\Ejercicio I02.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\bin\Debug\net6.0\Ejercicio I02.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\obj\Debug\net6.0\Sobrecarga.csproj.CopyComplete
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\obj\Debug\net6.0\Sobrecarga.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\obj\Debug\net6.0\refint\Sobrecarga.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\obj\Debug\net6.0\Sobrecarga.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\obj\Debug\net6.0\Sobrecarga.genruntimeconfig.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I02\Sobrecarga\obj\Debug\net6.0\ref\Sobrecarga.dll

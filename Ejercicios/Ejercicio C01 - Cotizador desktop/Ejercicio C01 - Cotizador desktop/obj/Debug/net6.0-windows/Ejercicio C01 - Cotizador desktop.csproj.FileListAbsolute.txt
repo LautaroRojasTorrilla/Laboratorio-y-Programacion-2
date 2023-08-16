@@ -1,0 +1,21 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\bin\Debug\net6.0-windows\Ejercicio C01 - Cotizador desktop.exe
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\bin\Debug\net6.0-windows\Ejercicio C01 - Cotizador desktop.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\bin\Debug\net6.0-windows\Ejercicio C01 - Cotizador desktop.runtimeconfig.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\bin\Debug\net6.0-windows\Ejercicio C01 - Cotizador desktop.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\bin\Debug\net6.0-windows\Ejercicio C01 - Cotizador desktop.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\obj\Debug\net6.0-windows\Ejercicio C01 - Cotizador desktop.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\obj\Debug\net6.0-windows\Ejercicio_C01___Cotizador_desktop.FrmCotizador.resources
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\obj\Debug\net6.0-windows\Ejercicio_C01___Cotizador_desktop.Properties.Resources.resources
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\obj\Debug\net6.0-windows\Ejercicio C01 - Cotizador desktop.csproj.GenerateResource.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\obj\Debug\net6.0-windows\Ejercicio C01 - Cotizador desktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\obj\Debug\net6.0-windows\Ejercicio C01 - Cotizador desktop.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\obj\Debug\net6.0-windows\Ejercicio C01 - Cotizador desktop.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\obj\Debug\net6.0-windows\Ejercicio C01 - Cotizador desktop.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\obj\Debug\net6.0-windows\Ejercicio C01 - Cotizador desktop.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\obj\Debug\net6.0-windows\refint\Ejercicio C01 - Cotizador desktop.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\obj\Debug\net6.0-windows\Ejercicio C01 - Cotizador desktop.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\obj\Debug\net6.0-windows\Ejercicio C01 - Cotizador desktop.genruntimeconfig.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\obj\Debug\net6.0-windows\ref\Ejercicio C01 - Cotizador desktop.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\bin\Debug\net6.0-windows\Entidades.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\bin\Debug\net6.0-windows\Entidades.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio C01 - Cotizador desktop\Ejercicio C01 - Cotizador desktop\obj\Debug\net6.0-windows\Ejercicio C01 - Cotizador desktop.csproj.CopyComplete

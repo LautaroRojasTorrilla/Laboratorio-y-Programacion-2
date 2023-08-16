@@ -1,0 +1,8 @@
+CLASE ABSTRACTA
+
+Buscar una clase que no se le pueda dar funcionalidad adentro. Algo que sea demasiado abstracto. Como por ejemplo figura.
+Se le pueden dar implementaciones a algunos métodos.
+
+Como soy abstracto, puede tener métodos abstractos y los puedo patear. La obligación la tiene el que no sea abstracto de redefinir con override.
+
+Los métodos abstract no tienen cuerpo.

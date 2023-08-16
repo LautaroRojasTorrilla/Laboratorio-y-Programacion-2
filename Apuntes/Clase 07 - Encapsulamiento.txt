@@ -1,0 +1,80 @@
+ENCAPSULAMIENTO
+Consiste en agrupar los datos del objeto junto con los métodos que operan sobre esos datos.
+Nos permite ocultar los detalles de la implementación y proteger el estado del objeto.
+Sin la necesidad de exponer los medios que utilizamos para llegar a ese estado.
+Es el ocultamiento de los estados. Cada objeto está aislado del exterior protegiendo los datos del objeto.
+
+Podemos definir la privacidad de los datos y sólo permitir que se modifiquen determinados parámetros, esto favorece que la clase va a exponer una interfaz limpia y segura ya que puede haber muchos métodos o atributos que son de uso interno y no requieren que sean expuestos.
+
+-----
+
+Diseño de la clase
+Datos y comportamiento
+
+Encapsulamiento
+Agrupación de datos y comportamientos.
+
+Ocultamiento de la implementación
+Interfaz pública de la clase. Los datos se
+exponen a través de métodos de acceso.
+
+-----
+
+Niveles de accesibilidad
+Permite hacer el ocultamiento. Y que el programador acceda para hacer cambios de manera más controlada y solo en los atributos que nosotros queremos. 
+
+
+-----
+
+PROPIEDADES
+Es un miembro que proporciona un mecanismo flexible para leer, escribir o calcular el valor de un campo.
+Las propiedades se pueden usar como si fueran miembros de datos públicos, pero en realidad son métodos especiales llamados descriptores de acceso.
+Permiten que una clase exponga una forma pública de obtener y establecer valores, mientras oculta el código de implementación o validación.
+
+
+value es la palabra reservada para el descriptor de acceso set.
+
+Reemplazan a los set y get
+
+-----
+
+ENUMERADOS
+Es un tipo de valor que define un conjunto de constantes con nombre.
+Sirven para definir y limitar el conjunto de valores que pueden ser asignados a una variable o parámetro de entrada.
+Sus valores son números enteros y tienen base-cero.
+Le podemos asignar un valor por sobre el que tiene por defecto.
+
+Es mejor hacerlo dentro de un espacio de nombre que dentro de una clase.
+
+-----
+
+INDEXADORES
+
+Los indexadores nos permiten acceder a los datos del objeto a través de un índice.
+Se parecen a las propiedades, excepto que sus descriptores de acceso toman parámetros.
+
+● Puede ser más de un índice
+● Puede ser cualquier tipo
+● Puede recibir más de 1 parámetro (multidimensionales)
+● Son sobrecargables
+● No pueden ser estáticos, porque lleva la palabra reservada this (hace referencia a la isntancia de un objeto).
+
+Para acceder a la instancia como si fuese un array y adentro puedo hacer lo que quiera.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,168 @@
+https://icon-icons.com/
+https://icon-icons.com/search/icons/?filtro=candado
+
+-------------------------------------
+
+INTERFAZ GRAFICA - GUI
+
+Es algo que le permite al usuario interactuar con los programas de la computadora, en lugar de usar comando de textos o códigos.
+Permite que el usuario pueda interactuar de manera intuitiva.
+
+----------
+
+Windows Forms
+Es la plataforma de desarrollo de aplicaciones para windows basadas en el marco de .Net.
+Proporciona un conjunto de clases para desarrollar aplicaciones para windows.
+
+Todos los formularios heredan de la clase Form del NameSpace System.Windows.Forms y de object(por ende tiene sus metodos),además es posible crear nuestras propias clases a partir de estas.
+Son declaraciones de clases, como las que podemos llegar a crear en la biblioteca de entidades. 
+
+Son objetos que exponen propiedades y métodos que vana  definir su comportamiento, además hay eventos(define interaccion con el usuario). Son una instancia de clase, por ende tienen que ser instanciados.
+
+El primer formulario se instancia en el método main, que es el entry point. 
+
+-----
+
+Diseñador De formularios
+Al momento de diseñar un formulario, el diseñador de Visual Studio escribe de forma automática el código que describe a cada uno de los controles y al propio formulario.
+
+Está el concepto de parcial class. Divide el código de una clase en 2 archivos. El diseño del formulario y la interacción con ese formulario.
+
+C#>windows>Escritorio>Aplicación de windows form
+
+En la clase program está el método MAIN, ESTATICO.
+Es el punto de entrada de C#-
+
+Declara una aplicación que la pone a correr con una instancia de objeto form 1.
+Cambio el nombre del form1cs
+EN el form, boton derecho, ver código.
+
+FrmClase05.cs
+Tiene un constructor público sin formato.
+InitializeComponent();
+En esta región vamos a encontrar todas las
+configuraciones iniciales de nuestro objeto Form
+además de todas las modificaciones
+y adiciones que se van a generar mientras
+vayamos generando controles,
+modificando propiedades
+y asignando eventos en nuestro Form.
+
+-----
+
+Clases parciales:
+El concepto de Clases parciales (Partial Class) permite separar el código autogenerado por el diseñador de la lógica de nuestra aplicación en archivos diferentes.
+Separar el código de una clase en 2 archivos, partial indica que se pueden definir en el namespace otros elementos de la clase, la estructura o la interfaz.
+
+Clase parcial auto generada por el Diseñador donde va a escribir todo el código auto generado por nuestra aplicación. NO TOCAMOS NADA DE ACA
+FrmClase05.Designer
+
+
+En el form1 Click derecho > propiedades y pueod cambiar el nombre de la ventana.
+
+---
+
+Al boton le cambio el name 
+btnAceptar
+
+A través del código puedo cambiar los objetos.
+this.btnAceptar.Text = "El boton ahora cambio el nombre";
+
+-----
+
+OBJETO FORM
+El objeto Form es el principal componente de una aplicación Windows.
+Algunas de sus propiedades admiten valores de alguno de los tipos nativos (por valor) de .NET.
+Es un objeto que podemos manipular al igual que los objetos que creamos en nuestra biblioteca de clase.
+
+METODOS:
+miFrm.Show();
+miFrm.ShowDialog();
+Es para mostrar un formulario de forma model, no permite interactuar con otras ventanas.
+Retornan valores de tipo DialogResult.
+
+
+miFrm.Close();
+miFrm.Hide();
+
+PROPIEDADES: Ver la filmina.
+
+PROYECTO > AGREGAR NUEVO ELEMENTO> FORM WINDOWS
+
+-----
+
+EVENTOS:
+Son los momentos donde está transcurriendo algo con el ciclo de vida del formulario.
+
+Doble click sobre el formulario.
+Min 1:11
+
+//Es el mejor punto para la inicialización de los diferentes controles.
+
+private void FrmCotizador_Load(object sender, EventArgs e)
+{
+	
+}
+
+
+El el rayito, veo los eventos. Si hago click lo genera en el designer. Si lo borro, rompe porque en el designer queda referenciado. Esa línea también debo borrarla.
+La manera correcta de hacerlo. Es ir al formulario, doble click. Lo selecciono y lo borro, la referencia se va y ahí puedo borrar el método.
+Cree el botón de confirmación de cierre.
+
+-----
+
+CONTROLES:
+Son los componentes que vamos a poder reutilizar y que encapsulan la funcionalidad de una interfaz gráfica.
+
+TextBox
+txtNombre
+
+-----
+
+Llamar al segundo Form, lo hago desde el texto.
+
+-----
+
+SE PUEDE SOBRECARGAR EL CONSTRUCTOR porque es una clase. Puedo cambiar de cómo estoy construyendo el objeto.
+
+-----
+
+Desde solucion > puedo agregar proyecto de biblioteca de clases, para la lógica.
+No tengo que tener métodos acoplados a la vista.
+Hay que referenciarlo, después agregar espacio de nombre.
+using Entidades;
+
+-----
+
+GROUPBOX
+Se utiliza para agrupar controles, cómo por ejemplo podrían llegar a ser radio buttom o cajas de texto.
+La particularidad es que SON CONTENEDORES DE CONTROLES. 
+
+this.grpDatos.Controls
+Hay un array de todos los controles que están contenidos adentro. Para poder hacer un foreach.
+
+-----
+
+FORMULARIO MDI (interfaz de múltiple documento)
+Permite en una aplicación tener varios docs abiertos dentro de una ventana principal.
+Actua como contenedor para otros forms hijos, que son los docs individuales que se van abriendo en el MDI.
+
+-----
+
+Los datos ingresados en el textbox serán de tipo STRING y los que reciban números hay que hacer la conversión.
+
+O tener los métodos sobrecargados para tener ambas funcionalidades. Dependiende de cómo se vaya a laburar.
+
+-----
+
+3:20 explica lo de leave y el foco
+
+-----
+
+
+
+
+
+
+
+

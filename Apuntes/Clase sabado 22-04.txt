@@ -1,0 +1,47 @@
+https://refactoring.guru/es/design-patterns
+
+youtube.com/watch?v=z6WppAQ3LUg
+
+----------
+
+2 formas de empezar a hcer la aplicación.
+
+BACK TO FRONT
+Lógica de clases, lo que sería el back end y después lo plasmo en lo que es la vista.
+Esto es lo que venimos viendo.
+
+FRONT TO BACK
+Todo el formulario primero y después la parte de la lógica.
+
+----------
+
+DialogfResult
+Establece si el usuario apreto aceptar o cancelar.
+
+----------
+
+TxtBox tiene 2 elementos
+
+validating 
+mientras estoy validando el control
+
+validated
+cuando el control ya fue validado
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

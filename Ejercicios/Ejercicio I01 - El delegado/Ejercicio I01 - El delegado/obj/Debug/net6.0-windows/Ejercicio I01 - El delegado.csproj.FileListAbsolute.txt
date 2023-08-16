@@ -1,0 +1,19 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\bin\Debug\net6.0-windows\Ejercicio I01 - El delegado.exe
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\bin\Debug\net6.0-windows\Ejercicio I01 - El delegado.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\bin\Debug\net6.0-windows\Ejercicio I01 - El delegado.runtimeconfig.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\bin\Debug\net6.0-windows\Ejercicio I01 - El delegado.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\bin\Debug\net6.0-windows\Ejercicio I01 - El delegado.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\obj\Debug\net6.0-windows\Ejercicio I01 - El delegado.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\obj\Debug\net6.0-windows\Ejercicio_I01___El_delegado.FrmMostrar.resources
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\obj\Debug\net6.0-windows\Ejercicio_I01___El_delegado.FrmPrincipal.resources
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\obj\Debug\net6.0-windows\Ejercicio_I01___El_delegado.FrmTestDelegados.resources
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\obj\Debug\net6.0-windows\Ejercicio I01 - El delegado.csproj.GenerateResource.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\obj\Debug\net6.0-windows\Ejercicio I01 - El delegado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\obj\Debug\net6.0-windows\Ejercicio I01 - El delegado.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\obj\Debug\net6.0-windows\Ejercicio I01 - El delegado.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\obj\Debug\net6.0-windows\Ejercicio I01 - El delegado.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\obj\Debug\net6.0-windows\Ejercicio I01 - El delegado.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\obj\Debug\net6.0-windows\refint\Ejercicio I01 - El delegado.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\obj\Debug\net6.0-windows\Ejercicio I01 - El delegado.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\obj\Debug\net6.0-windows\Ejercicio I01 - El delegado.genruntimeconfig.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - El delegado\Ejercicio I01 - El delegado\obj\Debug\net6.0-windows\ref\Ejercicio I01 - El delegado.dll

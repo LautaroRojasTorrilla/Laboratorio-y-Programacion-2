@@ -1,0 +1,138 @@
+GENERICS
+Son unas característica que nos va a permitir crear clases, interfaces y métodos que van a poder trabajar con diferentes tipos de datos. Sin especificarlos de ante mano.
+Se usa un params genérico que se reemplaza por un tipo real cuando generemos una instancia de este tipo.
+
+Elementos que se adaptan para realizar la misma funcionalidad para una variedad de tipos de datos.
+
+Sin necesidad de definir una versión para cada tipo.
+
+----------------------------
+
+Lo más común y pudiendo hacer una analogía, son las LIST.
+List<T>
+
+Puede ser T, U, V, W... Z
+
+<> Se le indica en tipo con el cuál estoy trabajando.
+
+----------------------------
+
+Cuando usemos la clase genérica, vamos a poder especificarle el tipo de dato que vamos a querer utilizar.
+
+﻿namespace Entidades
+{
+    public class MiClaseGenerica<T,U> 
+        where T : U
+        where U : class, new()
+    {
+      
+
+    
+
+        public void ImprimiValor(T generico) {
+            Console.WriteLine(generico);
+        }
+    }
+}
+
+
+namespace Clase12
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+		INSTANCIO LA CLASE.
+            //MiClaseGenerica<Persona> miClaseGenerica = new MiClaseGenerica<Persona>();
+            //MiClaseGenerica<Persona> miClaseGenericaTexto = new MiClaseGenerica<Persona>();
+
+            //miClaseGenerica.ImprimiValor(10);
+            //miClaseGenericaTexto.ImprimiValor("Hello, World!");
+
+             
+        }
+    }
+}
+
+
+LOS GENERICOS PROPORCIONAN FLEXIBILIDAD Y REUTILIZACION DE CODIGO, LO CUAL NOS PERMITE ESCRIBIR COMPONENTES, CLASES O MODULOS QUE FUNCIONEN CON MULTIPLE TIPO DE DATOS.
+ESTO NOS EVITA TENER QUE REPETIR CODIGO PAR ACADA TIPO DIFERENTE Y FACILITA EL MANTENIMIENTO Y ESCALABILIDAD DEL PROGRAMA.
+
+PODEMOS TENER MÉTDOOS GENERICOS
+
+public void ImprimiValor<T> (T generico) 
+{
+	Console.WriteLine(generico);
+}
+
+miClaseGenerica.ImprimiValor<int>(10);
+miClaseGenerica.ImprimiValor<string>("Hello World");
+
+----------------------------
+
+BENEFICIOS
+
+SEGURIDAD DE TIPO
+Previene posibles errores, al momento de generar la instancia estamos indicando los tipos.
+
+REUTILIZACION DE CODIGO
+Misma tarea con tipos distintos
+
+Generics VS No-Generics
+Eficiencia. Evita boxing y Unboxing. Boxing es el proceso de convertir un valor de un tipo de valor a un objeto, de tipo de referencia compatibla. Se crea una nueva instancia de la clase que encapsula el valor y se copia el valor en esa intancia.
+
+int numero = 42;
+object obj = numero;
+//es una conversión implícita. Por detrás se genera una instancia del objeto.
+
+UNBOXING es el proceso contrario
+
+object obj2 = 42;
+int numero2 = (int)obj2;
+//es una conversión explícita.
+
+
+----------------------------
+
+RESTRICCIONES
+Son para indicar de qué tipo va a ser el genérico con el que estamos trabajando.
+
+public class MiClaseGenerica<T,U> 
+	where T : U
+	where U : class, new()
+
+where T : struct || El argumento de tipo debe ser un tipo de valor.
+where T : class || El argumento de tipo debe ser un tipo de referencia.
+where T : unmanaged || No puede ser tipo de referencia. Implica struct
+where T : new() || El argumento de tipo debe tener un constructor público sin parámetros.
+where T : <nombre de la clase base> || El argumento de tipo debe ser de la clase especificada o derivada
+where T : <nombre de interfaz> || El argumento de tipo debe implementar la interfaz especificada
+where T : U || El argumento de tipo T debe ser del tipo U o derivados
+
+Algunas son mutuamente excluyentes.   
+
+----------------------------
+
+//puedo sacarle las propiedades al tipo. Devuelve una colección de las propiedades que tenga.
+typeof(T).GetProperties()
+
+int y = 0;
+foreach (var propiedad in typeof(T).GetProperties())
+{
+	Label label = new Label();
+	label.Name = propiedad.Name;
+        label.Text = propiedad.Name + ":";
+        label.Location = new Point(0, y);
+        this.Controls.Add(label);
+        y += 20;
+}
+
+
+
+
+
+
+
+
+
+

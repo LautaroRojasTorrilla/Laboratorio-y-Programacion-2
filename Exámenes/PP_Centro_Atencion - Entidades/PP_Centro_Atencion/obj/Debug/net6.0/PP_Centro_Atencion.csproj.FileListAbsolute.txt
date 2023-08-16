@@ -1,0 +1,12 @@
+C:\Users\lrojas\Desktop\Proyectos\PP_Centro_Atencion\PP_Centro_Atencion\bin\Debug\net6.0\PP_Centro_Atencion.deps.json
+C:\Users\lrojas\Desktop\Proyectos\PP_Centro_Atencion\PP_Centro_Atencion\bin\Debug\net6.0\PP_Centro_Atencion.dll
+C:\Users\lrojas\Desktop\Proyectos\PP_Centro_Atencion\PP_Centro_Atencion\bin\Debug\net6.0\PP_Centro_Atencion.pdb
+C:\Users\lrojas\Desktop\Proyectos\PP_Centro_Atencion\PP_Centro_Atencion\obj\Debug\net6.0\PP_Centro_Atencion.csproj.AssemblyReference.cache
+C:\Users\lrojas\Desktop\Proyectos\PP_Centro_Atencion\PP_Centro_Atencion\obj\Debug\net6.0\PP_Centro_Atencion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lrojas\Desktop\Proyectos\PP_Centro_Atencion\PP_Centro_Atencion\obj\Debug\net6.0\PP_Centro_Atencion.AssemblyInfoInputs.cache
+C:\Users\lrojas\Desktop\Proyectos\PP_Centro_Atencion\PP_Centro_Atencion\obj\Debug\net6.0\PP_Centro_Atencion.AssemblyInfo.cs
+C:\Users\lrojas\Desktop\Proyectos\PP_Centro_Atencion\PP_Centro_Atencion\obj\Debug\net6.0\PP_Centro_Atencion.csproj.CoreCompileInputs.cache
+C:\Users\lrojas\Desktop\Proyectos\PP_Centro_Atencion\PP_Centro_Atencion\obj\Debug\net6.0\PP_Centro_Atencion.dll
+C:\Users\lrojas\Desktop\Proyectos\PP_Centro_Atencion\PP_Centro_Atencion\obj\Debug\net6.0\refint\PP_Centro_Atencion.dll
+C:\Users\lrojas\Desktop\Proyectos\PP_Centro_Atencion\PP_Centro_Atencion\obj\Debug\net6.0\PP_Centro_Atencion.pdb
+C:\Users\lrojas\Desktop\Proyectos\PP_Centro_Atencion\PP_Centro_Atencion\obj\Debug\net6.0\ref\PP_Centro_Atencion.dll

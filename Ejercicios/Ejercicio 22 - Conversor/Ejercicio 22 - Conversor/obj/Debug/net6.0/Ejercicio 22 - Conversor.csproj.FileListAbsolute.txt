@@ -1,0 +1,18 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\bin\Debug\net6.0\Ejercicio 22 - Conversor.exe
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\bin\Debug\net6.0\Ejercicio 22 - Conversor.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\bin\Debug\net6.0\Ejercicio 22 - Conversor.runtimeconfig.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\bin\Debug\net6.0\Ejercicio 22 - Conversor.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\bin\Debug\net6.0\Ejercicio 22 - Conversor.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\bin\Debug\net6.0\Entidades.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\bin\Debug\net6.0\Entidades.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\obj\Debug\net6.0\Ejercicio 22 - Conversor.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\obj\Debug\net6.0\Ejercicio 22 - Conversor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\obj\Debug\net6.0\Ejercicio 22 - Conversor.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\obj\Debug\net6.0\Ejercicio 22 - Conversor.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\obj\Debug\net6.0\Ejercicio 22 - Conversor.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\obj\Debug\net6.0\Ejercicio 22 - Conversor.csproj.CopyComplete
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\obj\Debug\net6.0\Ejercicio 22 - Conversor.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\obj\Debug\net6.0\refint\Ejercicio 22 - Conversor.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\obj\Debug\net6.0\Ejercicio 22 - Conversor.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\obj\Debug\net6.0\Ejercicio 22 - Conversor.genruntimeconfig.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio 22 - Conversor\Ejercicio 22 - Conversor\obj\Debug\net6.0\ref\Ejercicio 22 - Conversor.dll

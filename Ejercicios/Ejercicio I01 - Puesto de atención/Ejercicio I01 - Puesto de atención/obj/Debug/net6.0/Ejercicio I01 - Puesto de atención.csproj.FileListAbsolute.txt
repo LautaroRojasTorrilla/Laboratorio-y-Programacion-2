@@ -1,0 +1,12 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\Ejercicio I01 - Puesto de atención\bin\Debug\net6.0\Ejercicio I01 - Puesto de atención.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\Ejercicio I01 - Puesto de atención\bin\Debug\net6.0\Ejercicio I01 - Puesto de atención.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\Ejercicio I01 - Puesto de atención\bin\Debug\net6.0\Ejercicio I01 - Puesto de atención.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\Ejercicio I01 - Puesto de atención\obj\Debug\net6.0\Ejercicio I01 - Puesto de atención.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\Ejercicio I01 - Puesto de atención\obj\Debug\net6.0\Ejercicio I01 - Puesto de atención.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\Ejercicio I01 - Puesto de atención\obj\Debug\net6.0\Ejercicio I01 - Puesto de atención.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\Ejercicio I01 - Puesto de atención\obj\Debug\net6.0\Ejercicio I01 - Puesto de atención.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\Ejercicio I01 - Puesto de atención\obj\Debug\net6.0\Ejercicio I01 - Puesto de atención.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\Ejercicio I01 - Puesto de atención\obj\Debug\net6.0\Ejercicio I01 - Puesto de atención.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\Ejercicio I01 - Puesto de atención\obj\Debug\net6.0\refint\Ejercicio I01 - Puesto de atención.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\Ejercicio I01 - Puesto de atención\obj\Debug\net6.0\Ejercicio I01 - Puesto de atención.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\Ejercicio I01 - Puesto de atención\obj\Debug\net6.0\ref\Ejercicio I01 - Puesto de atención.dll

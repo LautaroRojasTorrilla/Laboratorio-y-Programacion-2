@@ -1,0 +1,40 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\bin\Debug\net6.0-windows\Formulario Estacionamiento.exe
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\bin\Debug\net6.0-windows\Formulario Estacionamiento.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\bin\Debug\net6.0-windows\Formulario Estacionamiento.runtimeconfig.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\bin\Debug\net6.0-windows\Formulario Estacionamiento.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\bin\Debug\net6.0-windows\Formulario Estacionamiento.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\bin\Debug\net6.0-windows\Entidades.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\bin\Debug\net6.0-windows\Entidades.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario_Estacionamiento.FrmEstacionamiento.resources
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.csproj.GenerateResource.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.csproj.CopyComplete
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\refint\Formulario Estacionamiento.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.genruntimeconfig.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\ref\Formulario Estacionamiento.dll
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\bin\Debug\net6.0-windows\Formulario Estacionamiento.exe
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\bin\Debug\net6.0-windows\Formulario Estacionamiento.deps.json
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\bin\Debug\net6.0-windows\Formulario Estacionamiento.runtimeconfig.json
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\bin\Debug\net6.0-windows\Formulario Estacionamiento.dll
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\bin\Debug\net6.0-windows\Formulario Estacionamiento.pdb
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\bin\Debug\net6.0-windows\Entidades.dll
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\bin\Debug\net6.0-windows\Entidades.pdb
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.csproj.AssemblyReference.cache
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario_Estacionamiento.FrmEstacionamiento.resources
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.csproj.GenerateResource.cache
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.GeneratedMSBuildEditorConfig.editorconfig
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.AssemblyInfoInputs.cache
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.AssemblyInfo.cs
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.csproj.CoreCompileInputs.cache
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.csproj.CopyComplete
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.dll
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\refint\Formulario Estacionamiento.dll
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.pdb
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\Formulario Estacionamiento.genruntimeconfig.cache
+D:\Progra y labo 2\Exámenes\Parcial Estacionamiento\Formulario Estacionamiento\obj\Debug\net6.0-windows\ref\Formulario Estacionamiento.dll

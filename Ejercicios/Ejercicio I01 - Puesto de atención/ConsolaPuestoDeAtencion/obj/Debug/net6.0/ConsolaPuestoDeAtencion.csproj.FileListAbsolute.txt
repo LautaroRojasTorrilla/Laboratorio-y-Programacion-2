@@ -1,0 +1,18 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\bin\Debug\net6.0\ConsolaPuestoDeAtencion.exe
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\bin\Debug\net6.0\ConsolaPuestoDeAtencion.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\bin\Debug\net6.0\ConsolaPuestoDeAtencion.runtimeconfig.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\bin\Debug\net6.0\ConsolaPuestoDeAtencion.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\bin\Debug\net6.0\ConsolaPuestoDeAtencion.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\bin\Debug\net6.0\Ejercicio I01 - Puesto de atención.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\bin\Debug\net6.0\Ejercicio I01 - Puesto de atención.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\obj\Debug\net6.0\ConsolaPuestoDeAtencion.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\obj\Debug\net6.0\ConsolaPuestoDeAtencion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\obj\Debug\net6.0\ConsolaPuestoDeAtencion.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\obj\Debug\net6.0\ConsolaPuestoDeAtencion.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\obj\Debug\net6.0\ConsolaPuestoDeAtencion.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\obj\Debug\net6.0\ConsolaPuestoDeAtencion.csproj.CopyComplete
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\obj\Debug\net6.0\ConsolaPuestoDeAtencion.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\obj\Debug\net6.0\refint\ConsolaPuestoDeAtencion.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\obj\Debug\net6.0\ConsolaPuestoDeAtencion.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\obj\Debug\net6.0\ConsolaPuestoDeAtencion.genruntimeconfig.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Ejercicio I01 - Puesto de atención\ConsolaPuestoDeAtencion\obj\Debug\net6.0\ref\ConsolaPuestoDeAtencion.dll

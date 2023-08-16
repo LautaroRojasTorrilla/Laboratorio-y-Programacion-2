@@ -1,0 +1,110 @@
+https://www.youtube.com/watch?v=UcFYeeo7HLM&ab_channel=hdeleon.net
+
+A través de un objeto, uno va a obtener la misma instancia.
+
+https://onlinegdb.com/BTxLSn-W4
+
+------------------------------------------------
+
+
+
+SOBRECARGA
+Mejora la USABILIDAD del código.
+Es una técnica que nos permite definir varios miembros de una clase con el mismo nombre, siempre y cuando reciban un conjunto distinto de parámetros.
+Se usa cuando se requieren metodos similares o agregar nuevas funcionalidades.
+Permite crear más de un método del mismo nombre
+Una firma difiere de que se modifiquen la cantidad de parámetros.
+SE RESUELVE EN TIEMPO DE COMPILACION.
+
+-----
+
+DE METODOS.
+1)Cambiar la cantidad de parámetros.
+Los parámetros pueden identificar a qué metodo sumar.
+
+2)Cambiar el tipo de los parámetros.
+CAMBIAR EL RETORNO NO ES UNA SOBRECARGA VALIDA
+
+3)Cambiar el orden de los parámetros.
+No es tan común hacer este tipo de sobrecarga, porque lleva a reescribir todo un método que ya tengo. Hay que chequear muchas cosas y es incómodo de usar.
+
+-----
+
+DE CONSTRUCTORES
+Permite a los objetos inicializarse de distintas formas.
+Se puede cambiar cantidad, tipo y orden de los parámetros.
+
+LOS CONSTRUCTORES ESTATICOS NO SE PUEDEN SOBRECARGAR PORQUE NO RECIBE PARAMETROS.
+LOS CONSTRUCTORES PRIVADOS SÍ SE PUEDEN SOBRECARGAR, la particularidad es que permite generar una instancia de ese objeto, a través de ese constructor por fuera de dicha clase.
+
+:this()
+Se resuelve por el número y orden del tipo.
+No permite que se llamen a constructores de otras clases con este operador.
+Se usa para la instancia de los atributos de dicha clase.
+
+-----
+
+DE OPERADORES
+Sobrecargar un operador consiste en modificar su comportamiento cuando se utiliza con una determinada clase.
+Nota: Los operadores de comparación, si son sobrecargados, se deben sobrecargar en pares; es decir, si se sobrecarga el operador ==, se deberá sobrecargar el operador !=.
+Se pueden sobrecargar los unarios o binarios, no así los que sean unarios y binarios.
+
+LOS OBJETOS SE COMPARAN SIEMPRE POR DEFECTO POR REFERENCIA.
+
+-----
+
+DE CONVERSION
+Una Clase puede definir una conversión implícita o explícita personalizada desde o hacia otro tipo.
+
+Explicita si es que puede llegar a haber algún tipo de pérdida de información,de manera que le porgramador sea consciente de la conversión que está realizando.
+
+Explícito e implícito tienen la misma finalidad, declaración pero diferente aplicación.
+
+Las conversiones nos van a permitir hacer compatibles tipos que antes no lo eran.
+
+La declaración (Firma-Prototipo) de un mértodo de conversión es de la clase.
+No necesitamos crear un objeto para realizar una conversión.
+Son unarios, deben definirse como miembros estáticos en el tipo de valor devuelto o en el operando.
+
+
+if(festejaCumple == True)
+{
+	return salimosALaTarde;
+}
+else
+{
+	return salimosALaNoche;
+}
+
+-----
+
+SOBRECARGA DE -=
+
+En realidad se sobrecarga el -
+Tiene que hacer que la sobrecarga retorne el objeto que estamos sobrecargando y lo que hacemos es que en esa sobrecarga devuelva el mismo tipo.
+
+Despues se usa por ejemplo 
+
+miEstacionamiento -= item;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,123 @@
+EXAMEN LABO
+
+No hay que hacer nada raro. NOs da el proyecto con el form, con los dibujitos y demás.
+VAN A EVAULAR BASE DE DATOS, ARCHIVOS, GENERICS, INTERFACES.
+
+---------------
+
+EVENTOS
+Es una forma de comunicación entre los objetos, cuando ocurre un determinado suceso.
+Notifica a los suscriptores que algo ha sucedido.
+
+Son “mensajes” que emiten clases u objetos cuando ocurre algo en particular dentro del objeto.
+
+Es el modo que tiene una clase u objeto de notificar a otras clases u objetos cuando ocurre una acción.
+
+Acción
+Producida por el usuario o por la lógica del programa.
+
+EMISOR/ REMITENTE(sender)
+Es el objeto que genera el evento.
+Envía una notificación de que ha ocurrido un evento.
+No sabe qué objeto o método recibirá (manejará) los
+eventos que genera.
+
+RECEPTOR
+Recibe esa notificación y determina qué hacer.
+
+---------------
+
+El evento predeterminado es click.
+
+---------------
+
+Eventos en GUI
+
+Cada formulario y control expone un conjunto de eventos.
+Si se produce uno de estos eventos y hay un código que lo controle, se invoca ese código.
+Muchos eventos ocurren junto con otros eventos.
+En el transcurso del evento de DoubleClick , se producen los eventos MouseDown, MouseUp y Click.
+
+---------------
+
+EVENTOS Y DELEGADOS
+
+Para generar nuestros propios eventos, tenemos que crear un delegado con el tipo de firma que vamos a querer que tenga, de acuerdo a la acción a realizar, se declara evento con la palabra reservada event y después va el delegado.
+
+public delegate void EnviarMensaje(Mensaje mensaje);
+public static event EnviarMensaje OnMensaje;
+
+El delegado es un intermediario entre el evento y el código que lo maneja
+Por convención, el identificador del delegado termina con la palabra Handler y el del evento empieza con la palabra On
+
+Declaración
+Palabra reservada event
+El tipo del evento debe ser un tipo de delegado
+El identificador del evento debe ser un verbo o frase verbal
+
+---------------
+
+//Se está agregando un suscriptor al evento.
+//Agrega una referencia a un método que va a estar ejecutando la acción que queremos que se ejecute al momento que se produzca el evento
+
+GestorDataBase.OnMensaje += ManejarMensaje;
+
+---------------
+
+Pensar en el += en lo que queres que haga tu programa cuando se de una determinada accion
+
+---------------
+
+private void FrmView_FormClosing(object sender, FormClosingEventArgs e)
+{
+	GestorDataBase.IniciarLectura = false;
+}
+
+---------------
+
+CALLBACK VA DE MEMORIA, VAN EN EL MANEJADOR.
+
+---------------
+
+INVOCA LA PALABRA Y TEMPORIZADOR
+Muy parecido.
+
+2022 es el parcial.
+
+---------------
+
+Esto es en IniciarJuego
+
+porque task espera un delegado entonces le mandas una lamda porque action ponele espera un bool.
+
+Le paso la función anónima y le paso que quieroq ue haga.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

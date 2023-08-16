@@ -1,0 +1,84 @@
+SOFTWARE TESTING
+
+Es una parte integral del ciclo de vida del software.
+Es el mecanismo, manual o automático, de verificar si el comportamiento del sistema es el deseado o no.
+
+----------
+
+TEST UNITARIOS
+
+Verifican la funcionalidad de una sección específica de código.
+
+F.I.R.S.T de Robert Martin
+
+FAST
+Ejecutarse de forma rápida
+ISOLATES
+No deben depender unas de otras
+REPEATABLE
+Deben poder repetirse en cualquier entorno
+SELF-VALIDATING
+No requieren validación manual
+TIMELY
+Se escriben antes del código
+
+
+----------
+
+METODOLOGÍA DE TRABAJO
+
+Los tests se hacen primero.
+
+----------
+
+METODOS DE EXTENSION
+
+Son métodos estaticos, se invocan como métodos de instancia.
+Nos van a permitir agregar nuevas funcionalidades a tipos de datos ya existentes.
+
+Permiten agregar métodos a tipos existentes sin crear un nuevo tipo derivado, recompilar o modificar el tipo
+
+----------
+
+
+Las tres A del unit testing
+
+Para llevar a cabo buenas pruebas unitarias, deben estar estructuradas siguiendo las tres A’s del Unit Testing:
+
+Arrange (organizar). Es el primer paso de las pruebas unitarias. En esta parte se definen los requisitos que debe cumplir el código. Se inicializa.
+
+Act (actuar). Es el paso intermedio de las pruebas, el momento de ejecutar el test que dará lugar a los resultados que deberás analizar.
+Se invoca/ejectura al código a probar.
+
+Assert (afirmar). En el último paso, es el momento de comprobar si los resultados obtenidos son los que se esperaban. Si es así, se valida y se sigue adelante. Si no, se corrige el error hasta que desaparezca.
+Es quien trata de acertar si el método ejectuado se comparto según lo previsto
+
+----------
+
+
+GENERAR PROYECTO PRUEBAS UNITARIAS
+
+Solucion ---> agregar nuevo proyecto ---> prueba ---> Prueba de MSTest
+
+DEPENDECIAS ----> Le agrego la referencia de las entidades.
+
+Prueba ----> Ejecutar todas las pruebas ahora.
+
+----------
+
+
+//el nombre d elo que hace el programa
+public void AlRecibirUnNumeroUno_EnDecimal_DeberiaObternerUnNumeroRomano()
+
+
+
+
+
+
+
+
+
+
+
+
+

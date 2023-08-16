@@ -1,0 +1,212 @@
+-------
+Para resolver ciertas problemáticas se suele utilizar la misma lógica de programación.
+
+ESCALABILIDAD: agregar nuevas funcionalidades sin tener que hacer grandes cambios en el código.
+-------
+
+FUNCIONES
+Bloque de código que se puede reutilizar, tiene instrucciones.
+Tiene ventajas, respecto a uno sin funciones. Existen ppios que remarcan las buenas prácticas
+
+PPIO KISS
+Soluciona problemas complejos, utilizando tareas sencillas
+Ppio de diseño, las soluciones simples son las "mejores". Y que son fáciles de entender.
+
+-------
+
+Principio DRY
+
+"Toda pieza de conocimiento debe tener una representación única, inequívoca y fidedigna dentro de un sistema."
+
+La modificación de un elemento del sistema o proceso no debería requerir modificación en otros elementos relacionados. Nuestro sistema o proceso va a ser el encargado de tener una única responsabilidad, marcada
+
+Evita instrucciones complicadas.
+
+
+-------
+Los proyectos de consola, son proyectos de tipo vista.
+
+MÉTODOS
+Deben hacer una sola cosa y hacerla bien.
+Van ubicados en otro proyecto de biblioteca de clases. Un proyecto dónde va a tener su lógica.
+Vamos a usar estáticos, tiene un modificador de acceso que indica característica especial de la función, luego static. (VER FILMINA)
+Static porque generamos las funciones dentro de una clase que va a tener semántica y referencia con respecto a la semántica que vamos a resolver.
+
+PARAMS
+puede especificar un parámetro de método tome un número variable de argumentos. Tiene que ser el último atributo del método.
+El tipo de parámetro debe ser una matriz unidimensional.
+
+SOLUCION -> AGREGAR NUEVO PROYECTO -> BIBLIOTECA -> BIBLIOTECA DE CLASES
+
+------
+
+REFERENCIAR PROYECTOS:
+Dependencias > agregar referencia del proyecto.
+
+Arriba de todo se pone
+using nombreentidad;
+
+------
+
+MODIFICADORES DE ACCESO
+
+public 
+Accesible desde cualquier parte.
+
+private 
+Sólo accesible desde dentro del mismo tipo.
+
+internal 
+Sólo accesible desde dentro del mismo ensamblado / proyecto.
+ES EL ACCESO POR DEFECTO DE LAS CLASES.
+
+protected 
+Sólo accesible desde dentro del mismo tipo o tipos derivados (hijos).
+
+------
+
+CLASES ESTATICAS
+Dentro pueden tener ATRIBUTOS ESTATICOS, que van a ser de la clase.
+Contiene solo miembros estáticos y sus métodos no se asocian a un objeto particular sino a la clase.
+
+No puede obtener miembros no estáticos, porque si no es estático es de instancia. Al revés sí se puede.
+
+public static class Validador
+{
+	public static int valor = 100;
+}
+
+Dentro del program:
+
+Validador.valor;
+
+------
+
+Documentacion XML
+
+Se activa con ///
+Es importante, porque ayuda a los programadores a tener una vista clara de qué es lo que va a hacer nuestro método.
+
+------------
+
+NAMESPACES
+Son una agrupación lógica de clases y otros elementos del código fuente.
+Todo lo que declaremos deberá estar contenido dentro de un espacio de nombres.
+No necesariamente deben llamarse igual al proyecto del que forman parte y puede haber más de 1 namespace.
+Su función principal es la organización del código, permitiendo la reducción de conflictos por nombres duplicados y la posibilidad de trabajar en un mismo programa con componentes de distinta procedencia.
+No se puede declarar clases fuera del namespace.
+
+------
+
+DIRECTIVA USING
+permite la especificación de una llamada a un método sin el uso obligatorio de un nombre completamente cualificado (nombre completo incluyendo el espacio de nombres).
+
+DIRECTIVA ALIAS
+permite utilizar un nombre distinto para un espacio de nombres. Se suele utilizar para abreviar nombres largos.
+
+------------
+
+STRING
+
+Las cadenas de texto o string, C# las maneja internamente como si fueran una “Cadena secuencial de caracteres o char”.
+No hay ningún caracter que finalice en NULL al final de una cadena de C#
+
+Cada caracter ocupa una posición dentro de la cadena. Estas posiciones arrancan desde el número cero 0. Sirven para acceder al valor de cada caracter dentro de la cadena.
+
+LOS OBJETOS DE CADENA SON INMUTABLES, no se pueden cambiar después de haberse creado. Los métodos y operadores, devuelven un nuevo objeto.
+
+string.
+Tiene muchos métodos y formas.
+
+PARA INICIAR LA CADENA VACÍA.
+string cadena = string.Empty;
+cadena = "";
+
+---
+
+STRING BUILDER
+Para utilizar grandes manipulación de datos de tipo cadena, como por ejemplo para concatenar, o agregar elementos en tiempo de ejecución.
+
+NO REEMPLAZA A STRING, hay que identificar los casos en los cuáles se pueden utilizar.
+Se utiliza cuando:
+El el número de cambios en esa cadena es pequeño.
+Al realizar un número fijo de operaciones de concatenación.
+
+string cadena = "Hola" + "Mundo";
+StringBuilder sb = new SringBuilder("Hola");
+
+
+Append 
+Agrega información al final del StringBuilder actual.
+
+sb.Append(cadena);
+
+AppendLine 
+Agrega información al final del StringBuilder actual con un salto de línea.
+
+AppendFormat
+Reemplaza de formato pasado en un string con texto formateado.
+
+Insert 
+Inserta un string en el índice especificado del StringBuilder actual.
+
+-----
+
+RECORRER UNA CADENA
+
+foreach (char s in cadena)
+{
+	Console.Writeline(s);
+}
+
+for (int i = 0; i < cadena.Length; i++)
+{
+	Console.WriteLine(cadena[i]);
+}
+
+------------
+
+MATH
+La clase Math en C# proporciona una serie de métodos y constantes matemáticas comunes que se pueden utilizar en
+nuestros programas.
+
+Math.Round(x): Redondea el número x al entero más cercano.
+
+Math.Pow(x, y): Devuelve el valor de x elevado a la potencia y.
+
+------------
+
+DATE TIME
+La clase DateTime en C# representa una fecha y hora. Proporciona una serie de métodos útiles para
+trabajar con fechas y horas.
+
+DateTime.Now: Devuelve la fecha y hora actual.
+
+DateTime.Today: Devuelve la fecha actual, sin la hora.
+
+DateTime.Parse(string s): Convierte una cadena en una instancia de DateTime.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

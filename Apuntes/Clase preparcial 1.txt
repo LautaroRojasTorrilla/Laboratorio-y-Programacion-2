@@ -1,0 +1,80 @@
+Me doy cuenta que está sobrecargado porque hay más de 1 constructor y sino me dice que tiene atributos estáticos.
+
+----------
+
+Parcial estacionamiento
+
+GetEtacionamiento
+El paso a paso es la variable singleton
+
+En clase estacionamiento tiene atributo de tipo estacionamiento, es el mismo tipo de clase. El cuál va a ser estático. El constructor va a ser privado y va a tenre un metodo sestático que devuelve una instancia del estacionamiento. 
+Si esa variable es igual a null, genera la instancia y la retorna
+
+
+* es protected.
+
+Italica es abstract
+
+PARA DEDUCIR QUE ES VIRTUAL ES PORQUE ESTA EN MAS DE UNA CLASE.
+
+----------
+
+private bool ValidarPatente(string patente)
+        {
+            Regex rx = new Regex("^{7}$");
+            if (rx.IsMatch(patente))
+            {
+                return true;
+            }
+            return false;
+        }
+[a-zA-Z]
+[a-z]
+[0-9]
+6,7
+
+Es más fácil hacer con len
+
+----------
+El protector estatico lo llama el clr cdespues no se lo llama nunca más.
+----------
+
+
+public override string ToString()
+        {
+            return this.MostrarDatos();
+        }
+Alejandro Bongioanni20:27
+^[A-Za-z0-9]{6,7}$
+
+----------
+
+Hora 20.31
+
+Muestra lo del patron singleton.
+
+----------
+
+VER INDEXADORES
+
+----------
+
+
+return estacionamiento listadoVehiculos.Exists (v => v == vehiculo)
+
+Verifico si existe, se usa la sobrecarga de vehiculo.
+Hace un foreach y le pasa cada vehiculo. V e sun vehiculo, hace la comparacion.
+
+MEJOR QUE CONTAINS, PORQUE USA EL EQUALS.
+
+----------
+
+
+
+
+
+
+
+
+
+

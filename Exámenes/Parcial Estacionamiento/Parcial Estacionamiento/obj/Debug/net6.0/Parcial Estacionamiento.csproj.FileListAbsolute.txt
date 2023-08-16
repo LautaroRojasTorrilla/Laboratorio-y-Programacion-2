@@ -1,0 +1,18 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\obj\Debug\net6.0\Parcial Estacionamiento.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\obj\Debug\net6.0\Parcial Estacionamiento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\obj\Debug\net6.0\Parcial Estacionamiento.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\obj\Debug\net6.0\Parcial Estacionamiento.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\obj\Debug\net6.0\Parcial Estacionamiento.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\bin\Debug\net6.0\Parcial Estacionamiento.exe
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\bin\Debug\net6.0\Parcial Estacionamiento.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\bin\Debug\net6.0\Parcial Estacionamiento.runtimeconfig.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\bin\Debug\net6.0\Parcial Estacionamiento.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\bin\Debug\net6.0\Parcial Estacionamiento.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\bin\Debug\net6.0\Entidades.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\bin\Debug\net6.0\Entidades.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\obj\Debug\net6.0\Parcial Estacionamiento.csproj.CopyComplete
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\obj\Debug\net6.0\Parcial Estacionamiento.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\obj\Debug\net6.0\refint\Parcial Estacionamiento.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\obj\Debug\net6.0\Parcial Estacionamiento.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\obj\Debug\net6.0\Parcial Estacionamiento.genruntimeconfig.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Parcial Estacionamiento\Parcial Estacionamiento\obj\Debug\net6.0\ref\Parcial Estacionamiento.dll

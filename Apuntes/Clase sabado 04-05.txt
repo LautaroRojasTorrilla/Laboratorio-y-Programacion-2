@@ -1,0 +1,50 @@
+NAMESPACE
+Es un elemento que permite hacer agrupaciones lógicas de clases. No son agrupaciones físicas. 
+Permite definir una organización a la hora de trabajar con las clases y de que a estas mismas se puedan acceder desde ciertos lugas y desde otros no.
+Es una especia de visibilidad de clases.
+
+---
+
+CLASE (similar a estructura)
+Es una plantilla para crear objetos. La forma en la qu edefinimos la estructura y el comportamiento que va a tener un objeto.
+
+---
+
+METODOS DE ACCESO, establecen los niveles de ENCAPSULAMIENTO que van a tener los componentes (metodos o clases), desde dónde se van a ver.
+SINO ACLARO, POR DEFAULT es PRIVADO.
+
+METODO DE INSTANCIA
+Es cuando a partir de la variable puedo llamar al método.
+
+var nombre = nombre.tolowecase()
+
+METODO DE CLASE
+No es necesario crear una variable para llegar al método.
+
+int ran = Math.random();
+
+---
+
+CASTEO ES ENTRE TIPOS NUMERICOS
+PARSEO ES DE UN TIPO CADENA A UN TIPO NUMERICO O VICEVERSA
+
+1:10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

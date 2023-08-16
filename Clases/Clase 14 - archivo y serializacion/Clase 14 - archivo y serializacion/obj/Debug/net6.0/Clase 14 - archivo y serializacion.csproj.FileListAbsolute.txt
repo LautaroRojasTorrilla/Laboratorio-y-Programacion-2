@@ -1,0 +1,18 @@
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\bin\Debug\net6.0\Clase 14 - archivo y serializacion.exe
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\bin\Debug\net6.0\Clase 14 - archivo y serializacion.deps.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\bin\Debug\net6.0\Clase 14 - archivo y serializacion.runtimeconfig.json
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\bin\Debug\net6.0\Clase 14 - archivo y serializacion.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\bin\Debug\net6.0\Clase 14 - archivo y serializacion.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\obj\Debug\net6.0\Clase 14 - archivo y serializacion.csproj.AssemblyReference.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\obj\Debug\net6.0\Clase 14 - archivo y serializacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\obj\Debug\net6.0\Clase 14 - archivo y serializacion.AssemblyInfoInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\obj\Debug\net6.0\Clase 14 - archivo y serializacion.AssemblyInfo.cs
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\obj\Debug\net6.0\Clase 14 - archivo y serializacion.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\obj\Debug\net6.0\Clase 14 - archivo y serializacion.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\obj\Debug\net6.0\refint\Clase 14 - archivo y serializacion.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\obj\Debug\net6.0\Clase 14 - archivo y serializacion.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\obj\Debug\net6.0\Clase 14 - archivo y serializacion.genruntimeconfig.cache
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\obj\Debug\net6.0\ref\Clase 14 - archivo y serializacion.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\bin\Debug\net6.0\Entidades.dll
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\bin\Debug\net6.0\Entidades.pdb
+C:\Users\Lautaro\Desktop\Progra y labo 2\Clase 14 - archivo y serializacion\Clase 14 - archivo y serializacion\obj\Debug\net6.0\Clase 14 - archivo y serializacion.csproj.CopyComplete

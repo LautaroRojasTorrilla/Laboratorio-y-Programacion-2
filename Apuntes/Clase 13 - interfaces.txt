@@ -1,0 +1,167 @@
+INTERFACES
+Es una estructura que nos define un conjunto sde métodos y propiedades que una clase tiene que implementar. Se utiliza para establecer un contrato entre diferente clases, permitiendo la interoperabilidad y el uso polimórfico entre clases que no tienen ningún tipo de relación entre sí (no hay relación de herencia).
+
+Una interfaz es un medio común que nos permite agrupar funcionalidades que una clase luego DEBE implementar.
+
+Se puede decir que las interfaces establecen un contrato en el cual las clases que implementan la interfaz están obligadas a implementar sus funcionalidad
+
+Interoperabilidad, trabjar con las 4 clases conjuntamente e interactivamente. Es la capacidad de los distintos sistemas para trabajar juntos.
+
+GENERAMOS INTERFAZ
+SE APLICA LA INTERFAZ A LA CLASE
+SE HABILITA INTEROPERABILIDAD
+SE HACE QUE EXISTA ESPECIA DE HERENCIA Y LAS CLASES SON POLIMORFICAS.
+
+---
+Se crea una carpeta y adentro creo una interfaz
+Interfaz es un archivo, al igual que una clase.
+
+REGLA DE ESTILO: 
+Con la letra I de mayúscula. Por ejmeplo IMensaje
+acceso es public, palabra reservada interface
+
+PUEDEN CONTENER:
+METODOS --> Tienen que ser implementados por las clases que hereden o implementen esa interface. 
+TIENEN LA PARTICULARIDAD DE NO TENER CUERPO. NO ESCRIBIMOS CODIGO, SOLO ESPECIFICAMOS LA FIRMA. SIEMPRE VAN A SER PUBLIC SIN POSIBILIDAD DE MODIFICACION.
+
+public string EnviarMensaje();
+
+PROPIEDADES --> public bool Estado { get; }
+
+EVENTOS
+---
+
+Como las interfaces nos permiten tener la funcionalidad separada de la implementación podes tener distintas implementaciones en diferentes clases sin una relación fuerte pero con la misma funcionalidad.
+
+Se pueden crear clases en la cual haya una relación ne la funcionalidad que tengan.
+
+Las interfaces van a poder tener métodos, propiedades y eventos.
+Los métodos son públicos por defecto
+
+La ventaja es que se puede emular una herencia múltiple.
+Vamos a obtener la ventaja d epolimorfimos, lo que significa que una isntancia d euna clase, puede ser tratada como una instancia de su interface.
+
+------
+
+Usos y Generalidades
+● Nos permiten definir métodos, propiedades, indexadores y eventos.
+● Una interfaz no permite definir atributos ni constructores.
+● Una clase puede implementar varias interfaces
+● Todas las funcionalidades definidas en una interfaz son públicas sin posibilidad de modificación
+
+Las interfaces facilitan el polimorfismo, lo que significa que una instancia de una clase, puede ser tratada como una instancia de su interfaz. Esto nos permite escribir código más genérico y reutilizable, ya que las clases van a poder ser intercambiables en función de la interzad que se implementan. 
+
+------
+
+Definicion e Implementacion
+
+• Para definir una interfaz declaramos su modificador de visibilidad
+seguido de la palabra reservada interface y su nombre, por
+convención
+este siempre comienza con la letra I mayúscula.
+• Los métodos o propiedades definidos no llevan modificar de
+visibilidad
+Y por defecto van a ser siempre públicos.
+
+public class Cartero : Persona, IMensaje ----> Boton derecho ----> acciones ----> implementar interface
+
+---
+
+Implementación explícita
+
+Se usa para evitar la ambigüedad(2 interfaces que tiene un mismo mensaje y nosotros queremos darle una implementación para cada una), se quiere dar una implementación para 2 métodos distintos.
+
+La implementación explícita se OCULTA y para acceder hay que hacer un CASTEO al tipo de interfaz y através de allí podemos acceder al método.
+
+●Si una clase implementa más de una interfaz que contiene métodos con la misma definición, la llamada a ese método implementa el mismo método y el método específico de la interfaz.
+Los miembros de la interfaz se implementan utilizando un prfijo que va a especificar el nombre de la interfaz, seguido del nombre del miembro.
+
+string IGenerica<string>.EnviarMensaje()
+
+● Usando la implementación explícita de una interfaz podemos decirle al compilador el método de que interfaz vamos a implementar y vamos a poder proveer diferente funcionalidad a los métodos de estas distintas interfaces.
+
+● Del lado de la interfaz no vamos a ver reflejado ningún cambio ya que los cambios son en las implementaciones de estos métodos.
+
+● Otra razón para utilizar interfaces explícitas es ocultar la implementación de los elementos de la interfaz para que no sean fácilmente accesibles.
+
+----------------------------
+
+Implementación implícita
+
+Los miembros de la interfaz se implementan en la clase utilizando la misma firma, nombre, parámetro y tipo de retorno.
+Los miembros son públicos y pueden ser accedidos a través de la instancia de la clase.
+Si hay 2, se produce ambiguedad.
+
+----------------------------
+
+//NO TENGO LAS PROPIEDADES Y METODOS DE LA CLASE, SÍ TENGO LAS PROPIEDADES Y MÉTODOS DE LA INTERFAZ.
+List<IMensaje> carteros = new List<IMensaje>();
+            IMensaje cartero = new Cartero();
+            IMensaje paloma = new Paloma();
+
+            IMensaje mensajeado  r = new Paloma();
+            IMensaje mensajeador2 = new Whatsapp();
+            IMensaje mensajeador3 = new Cartero();
+            IMensaje mensajeador4 = new Email();
+
+SE PUEDE HACER PORQUE IMPLEMENTAN LA MISMA INTERFAZ.
+
+((Cartero)cartero).Nombre = "El Cartero";
+Castearlo para poder acceder.
+
+((IMensaje)paloma).EnviarMensaje();
+Casteo para poder acceder cuando es explícito.
+
+
+NO SE PUEDE GENERAR UNA INSTANCIA DE UNA INTERFAZ. SI PODEMOS DECLARAR UNA VARIABLE Y UN TIPO DE INTERFAZ Y LUEGO GENERAR LA INSTANCIA DE AQUELLOS OBJETOS QUE IMPLEMENTAN ESA INTERFAZ.
+Nos permite generar una colección de objetos que implementen esa interfaz, poder recorrerla y enviarle mensajes a esos objetos.
+
+---------------------
+
+ATENTO CON INTERFAZ GENERICA, LO VA A TOMAR
+
+DIFERENCIA ES QUE LA CLASE ABSTRACTA VA A PODER TENER ATRIBUTOS Y A SU VEZ VA A TENER METODOS CON CUERPO, CON DECLARACION CON LOGICA DENTRO.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+POLIMORFISMO
+Último pilar de la POO
+
+Es la habilidad de los objetos de responder al mismo mensaje de distintasformas.
+Los tipos derivados pueden redefinir la implementación de una operación en el tipo base.
+
+La capacidad de tratar a objetos diferentes de la misma forma. Tiende a existir en relación de herencia, basado en eso. Implica la definición de métodos en una clase base y sobreescribirlo de manera de implementaciones en clases derivadas.
+
+-----
+
+PROTECTED fuera de la relación de herencia se comporta como PRIVATE.
+
+-----
+
+HERENCIA NO-POLIMORFICA
+
+La herencia no-polimórfica nos permite redefinir un
+método de la clase base pero sin que se aplique
+polimorfismo.
+El CLR ejecutará la implementación correspondiente al tipo de la referencia que apunta al objeto en memoria, sin importar el tipo del objeto en memoria.
+La palabra reservada NEW oculta la implementación
+de la clase base
+
+-----
+
+HERENCIA POLIMORFICA
+
+La herencia polimórfica nos permite redefinir un
+método de la clase base aplicando polimorfismo.
+
+El runtime ejecutará la implementación correspondiente al tipo real del objeto en memoria, independientemente del tipo de la referencia. La palabra reservada VIRTUAL se usa para declarar un método que pueda ser invalidado / redefinido / sobrescrito por una clase derivada.
+La palabra reservada OVERRIDE se usa para invalidar / redefinir / sobrescribir un método virtual de la clase base.
+
+VIRTUAL habilita que el método pueda ser sobreescrito en la clase derivada.
+
+OVERRIDE uso para sobreescribir la funcionalidad de la clase base.
+
+
+----------
+
+CLASES ABSTRACTAS
+
+Las clases abstractas no se pueden instanciar.
+
+Su propósito es proporcionar una definición común que modele una jerarquía de herencia.
+
+Es un error de compilacion el usar el new en una clase abstracta.
+Puede tener miembros abrastractos pero no es necesario.
+No se puede sellar.
+
+SE PUEDE HEREDAR DESDE ELLA PERO NO PUEDE SER INSTANCIADA
+QUIEN HEREDA DE ESTA CLASE ESTA OBLIGADO A SOBREESCRIBIR EL METODO ABSTRACTO.
+
+----------------
+
+FORMULARIO LLAVADO VIEW
+Con el formatito
+
+
+----------------
+En lugar de comparar por referencia, le digo que cuando utilice el equals en la instancia del triángulo, lo haga con la redefinición que se hace del ==
+this es la instancia del objeto.
+Veo que no sea nulo, que sea un triángulo y lo convierto y lo comparo con la instancia.
+
+public override bool Equals(object? obj)
+{
+	return base.Equals(obj);
+}
+
+return obj is not null && obj is Triangulo && ((Triangulo)obj)==this;
+
+
+public overrid int GetHashCode()
+{
+	return base.GetHascode();
+}
+
+return this.xBase.GetHashCode();
+
+
+
+
+
+
+
+
+
+
+
+
